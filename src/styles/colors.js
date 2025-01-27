@@ -4,18 +4,14 @@ const colors = {
     background3: "#0E2EAA",
 
     bannerBackground1: "#050D31",
-    bannerBackground2: "#001460",
-    bannerBackground3: "#102C97",
-    bannerBackground4: "#089EBF",
-    bannerBackground5: "#00FFD1",
+    bannerBackground2: "#430060",
+    bannerBackground3: "#82007F",
+    bannerBackground4: "#FF96E5",
 
     introColor: "#F3F3F3",
     introColor2: "#E7E7E7",
 
-    goalColor: "#001223",
-    goalColor2: "#003F7D",
-
-    stageColor: "#42C0C8",
+    stageColor: "#FF96E5",
     stageColor2: "#D9D9D9",
 
     footerColor: "#000629",

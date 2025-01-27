@@ -64,6 +64,12 @@ const StageDetailContainer = styled.div`
         animation: ${fadeInUp} 1.2s 1.2s ease-out forwards;
     }
 
+    &.visible > div:nth-child(4) {
+        opacity: 0;
+        animation: ${fadeInUp} 1.2s 1.6s ease-out forwards;
+    }
+
+
     &.hidden > div {
         opacity: 0;
         transform: translateY(20px);
@@ -126,22 +132,8 @@ const PeopleBox = styled.div`
     }
 `
 
-const PeopleBox2 = styled.div`
-    width: 13rem;
-    height: 5.4rem;
-    border: 0.1rem solid ${colors.white};
-    border-radius: 0.4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2.8rem;
-
-    @media screen and (max-width: 430px) {
-        width: 7.659rem;
-        height: 3.501rem;
-        border-radius: 0.2rem;
-        margin-top: 1.8rem;
-    }
+const PeopleBox2 = styled(PeopleBox)`
+    border: 0.1rem solid ${colors.stageColor2};
 `
 
 const PeopleInner = styled.div`
@@ -176,11 +168,8 @@ const PeopleP = styled.p`
     }
 `
 
-const People2 = styled.p`
-    font-size: 2.4rem;
-    font-weight: 500;
-    line-height: 2.864rem;
-    color: ${colors.white};
+const PeopleP2 = styled(PeopleP)`
+    color: ${colors.stageColor2};
 
     @media screen and (max-width: 430px) {
         font-size: 1.2rem;
@@ -221,8 +210,19 @@ const StageBar = () => {
                 <DetailContainer>
                     <StageBarP1>2024.09</StageBarP1>
                     <StageBarP2>7TH UMC</StageBarP2>
+                    <PeopleBox>
+                        <PeopleInner>
+                            <PeopleImg src={StagePeople1} alt="people" />
+                            <PeopleP>33</PeopleP>
+                        </PeopleInner>
+                    </PeopleBox>
+                </DetailContainer>
+
+                <DetailContainer>
+                    <StageBarP1>2025.02</StageBarP1>
+                    <StageBarP2>8TH UMC</StageBarP2>
                     <PeopleBox2>
-                        <People2>모집 중</People2>
+                        <PeopleP2>모집 예정</PeopleP2>
                     </PeopleBox2>
                 </DetailContainer>
             </StageDetailContainer>

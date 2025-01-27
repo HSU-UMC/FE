@@ -28,15 +28,14 @@ const IfBox = styled.div`
 
 const IfBox2 = styled.div`
     width: 92.9rem;
-    height: 110.4rem;
+    gap: 4.8rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin-top: 7.2rem;
 
     @media screen and (max-width: 430px) {
         width: 36.663rem;
-        height: 46.022rem;
+        gap: 3.6rem;
         margin-top: 4.164rem;
     }
 `
