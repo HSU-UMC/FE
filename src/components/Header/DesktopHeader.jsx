@@ -57,12 +57,14 @@ const DesktopHeader = ({ isLogin, handleLogout }) => {
             >
                 Q&A
             </MenuItem>
+            {/*
             <MenuItem 
                 onClick={() => handleNavigation("/photo")} 
                 active={location.pathname === "/photo"}
             >
                 UMC Frame Photo
             </MenuItem>
+            */}
             <MenuItem 
                 onClick={() => handleNavigation("/recruit")} 
                 active={location.pathname === "/recruit"}

@@ -95,12 +95,15 @@ const Menu = ({ onClose, closing }) => {
         { path: "/", name: "About UMC" },
         { path: "/project", name: "Project" },
         { path: isLogin ? "/staffqna" : "/qna", name: "Q&A", relatedPaths: ["/staffqna", "/staffanswer", "/staffedit", "/qna", "/qna/:id", "/post"] },
-        { path: "/photo", name: "UMC Frame Photo", relatedPaths: ["/photo", "/photoresult"] },
+        //{ path: "/photo", name: "UMC Frame Photo", relatedPaths: ["/photo", "/photoresult"] },
         { path: "/recruit", name: "Recruit" }
     ];
 
-    const iconsOff = [MenuOff1, MenuOff2, MenuOff3, MenuOff4, MenuOff5];
-    const iconsOn = [MenuOn1, MenuOn2, MenuOn3, MenuOn4, MenuOn5];
+    // const iconsOff = [MenuOff1, MenuOff2, MenuOff3, MenuOff4, MenuOff5];
+    // const iconsOn = [MenuOn1, MenuOn2, MenuOn3, MenuOn4, MenuOn5];
+
+    const iconsOff = [MenuOff1, MenuOff2, MenuOff3, MenuOff5];
+    const iconsOn = [MenuOn1, MenuOn2, MenuOn3, MenuOn5];
 
     const handleMenu = (index) => {
         onClose();
