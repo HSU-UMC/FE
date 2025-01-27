@@ -12,7 +12,7 @@ import ProjectDetail from './pages/Project/ProjectDetail';
 import Qna from './pages/Qna/Qna';
 import QnaDetail from './pages/Qna/QnaDetail';
 import Post from './pages/Qna/Post';
-import Photo from './pages/Photo/Photo';
+// import Photo from './pages/Photo/Photo';
 import PhotoResult from './pages/Photo/PhotoResult';
 import Recruit from './pages/Recruit/Recruit';
 
@@ -40,8 +40,8 @@ function App() {
           <Route path="/qna" element={<Qna />} />
           <Route path="/qna/:id" element={<QnaDetail />} />
           <Route path="/post" element={<Post />} />
-          <Route path="/photo" element={<Photo />} />
-          <Route path="/photoresult" element={<PhotoResult />} />
+          {/* <Route path="/photo" element={<Photo />} /> */}
+          {/* <Route path="/photoresult" element={<PhotoResult />} /> */}
           <Route path="/recruit" element={<Recruit />} />
 
           <Route path="/stafflogin" element={<StaffLogin />} />

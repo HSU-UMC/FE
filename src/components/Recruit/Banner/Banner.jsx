@@ -7,7 +7,7 @@ const BannerContainer = styled.div`
     width: 100%;
     height: 12rem;
     margin-top: 2rem;
-    background: linear-gradient(-90deg, ${colors.bannerBackground1} 20.68%, ${colors.bannerBackground2} 41.37%, ${colors.bannerBackground3} 62.05%, ${colors.bannerBackground4} 80.97%, ${colors.bannerBackground5} 103.42%);
+    background: linear-gradient(-90deg, ${colors.bannerBackground1} 19.86%, ${colors.bannerBackground2} 39.7%, ${colors.bannerBackground3} 59.54%, ${colors.bannerBackground4} 81.87%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,7 +56,7 @@ const Banner = () => {
         <BannerContainer>
             <BannerInnerContainer>
                 <BannerImg src={BannerLogo1} alt="banner" />
-                <BannerP>IT 연합 사이드 프로젝트 동아리 한성대 UMC 7기 모집!</BannerP>
+                <BannerP>IT 연합 사이드 프로젝트 동아리 한성대 UMC 8기 모집!</BannerP>
             </BannerInnerContainer>
         </BannerContainer>
     )

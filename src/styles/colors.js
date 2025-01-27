@@ -11,9 +11,6 @@ const colors = {
     introColor: "#F3F3F3",
     introColor2: "#E7E7E7",
 
-    stageColor: "#FF96E5",
-    stageColor2: "#D9D9D9",
-
     footerColor: "#000629",
     footerColor2: "#DDDDDD",
     footerColor3: "#8E8E8E",
@@ -25,9 +22,8 @@ const colors = {
 
     recruitColor: "#C4C4C4",
     recruitColor2: "#78E5D8",
-    recruitColor3: "#001223",
-    recruitColor4: "#003F7D",
-    recruitColor5: "#071038",
+    recruitColor3: "#4A0037",
+    recruitColor4: "#071038",
     recruitColor6: "#86FFF0",
 
     staffLoginColor: "#E4E4E4",

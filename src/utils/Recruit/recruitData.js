@@ -42,8 +42,8 @@ const RecruitData = [
         ],
         "activeDate": 
             {
-                "start": "2024.08",
-                "end": "2025.02",
+                "start": "2025.03",
+                "end": "2025.08",
                 "period": "약 6개월"
             }
         ,
@@ -83,7 +83,7 @@ const RecruitData = [
                 "term": [
                     {
                         "id": 1,
-                        "explain": "9월부터 12월까지 각 파트 별로 제공되는 워크북에 있는 문제들을 스스로 해결해나갑니다."
+                        "explain": "3월부터 6월까지 각 파트 별로 제공되는 워크북에 있는 문제들을 스스로 해결해나갑니다."
                     },
                     {
                         "id": 2,
@@ -97,7 +97,7 @@ const RecruitData = [
                 "vacation": [
                     {
                         "id": 1,
-                        "explain": "스터디 수료 후 기준 충족자에 한해 25.01 ~ 25.02까지 두달 간 팀을 구성하여 사이드 프로젝트를 진행합니다."
+                        "explain": "스터디 수료 후 기준 충족자에 한해 25.07 ~ 25.08까지 두달 간 팀을 구성하여 사이드 프로젝트를 진행합니다."
                     },
                     {
                         "id": 2,
@@ -105,11 +105,11 @@ const RecruitData = [
                     },
                     {
                         "id": 3,
-                        "explain": `프로젝트 후 "UMC 데모데이" 를 통해 발표 및 교류를 진행합니다.`
+                        "explain": `프로젝트 후 "데모데이 해커톤" 을 통해 발표 및 교류를 진행합니다.`
                     },
                     {
                         "id": 4,
-                        "explain": "데모데이까지 무사히 완수하시면 UMC 7기를 수료 하시게 됩니다!"
+                        "explain": "데모데이까지 무사히 완수하시면 UMC 8기를 수료 하시게 됩니다!"
                     }
                 ]
             }
@@ -143,7 +143,7 @@ const RecruitData = [
             {
                 "id": 6,
                 "name": "Server",
-                "explain": "Spring Boot / Node.js / CS, 네트워크 (컴퓨터 이론)"
+                "explain": "SpringBoot / Node.js / CS, 네트워크 (컴퓨터 이론)"
             }
         ],
         "information": [

@@ -46,7 +46,7 @@ const ItemLink = styled.a`
     color: ${colors.white};
 
     &:hover {
-        color: ${colors.recruitColor2};
+        color: ${colors.bannerBackground4};
     }
 
     @media screen and (max-width: 430px) {

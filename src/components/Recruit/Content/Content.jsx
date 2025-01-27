@@ -17,7 +17,7 @@ const ContentP = styled.p`
     font-size: 2.4rem;
     font-weight: 700;
     line-height: 2.864rem;
-    color: ${colors.recruitColor6};
+    color: ${colors.bannerBackground4};
 
     @media screen and (max-width: 430px) {
         font-size: 1.8rem;

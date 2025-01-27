@@ -15,7 +15,7 @@ const NumberCircle = styled.div`
     font-size: 2rem;
     font-weight: 600;
     line-height: 2.387rem;
-    color: ${colors.recruitColor5};
+    color: ${colors.recruitColor4};
     display: flex;
     justify-content: center;
     align-items: center;
