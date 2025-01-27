@@ -117,7 +117,7 @@ const StageBarP2 = styled.p`
 const PeopleBox = styled.div`
     width: 13rem;
     height: 5.4rem;
-    border: 0.1rem solid ${colors.stageColor};
+    border: 0.1rem solid ${colors.bannerBackground4};
     border-radius: 0.4rem;
     display: flex;
     justify-content: center;
@@ -133,7 +133,7 @@ const PeopleBox = styled.div`
 `
 
 const PeopleBox2 = styled(PeopleBox)`
-    border: 0.1rem solid ${colors.stageColor2};
+    border: 0.1rem solid ${colors.white};
 `
 
 const PeopleInner = styled.div`
@@ -160,7 +160,7 @@ const PeopleP = styled.p`
     font-size: 2.4rem;
     font-weight: 500;
     line-height: 2.864rem;
-    color: ${colors.stageColor};
+    color: ${colors.bannerBackground4};
 
     @media screen and (max-width: 430px) {
         font-size: 1.6rem;
@@ -169,7 +169,7 @@ const PeopleP = styled.p`
 `
 
 const PeopleP2 = styled(PeopleP)`
-    color: ${colors.stageColor2};
+    color: ${colors.white};
 
     @media screen and (max-width: 430px) {
         font-size: 1.2rem;

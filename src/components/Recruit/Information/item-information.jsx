@@ -29,13 +29,13 @@ const ItemImg = styled.img`
 const ItemP = styled.p`
     font-size: 2rem;
     font-weight: 300;
-    line-height: 4rem; /* 줄 간 간격을 넓게 설정 */
+    line-height: 4rem;
     color: ${colors.white};
-    margin: 0; /* 텍스트 위아래 여백 제거 */
+    margin: 0;
 
     @media screen and (max-width: 430px) {
         font-size: 1.2rem;
-        line-height: 2rem; /* 모바일에서의 줄 간 간격 조정 */
+        line-height: 2rem;
     }
 `
 
