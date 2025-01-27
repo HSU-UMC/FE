@@ -9,22 +9,15 @@ import { sparkle, sparkleText, sparkleImg, twinkling } from "../../../styles/ani
 
 const BanenrContainer = styled.div`
     width: 100%;
-    //height: 102rem;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(0deg, ${colors.bannerBackground1} 11.63%, ${colors.bannerBackground2} 40.58%, ${colors.bannerBackground3} 69.52%, ${colors.bannerBackground4} 96%, ${colors.bannerBackground5} 127.4%);
-
-
-    @media screen and (max-width: 430px) {
-        //height: 19.695rem;
-    }
+    background: linear-gradient(0deg, ${colors.bannerBackground1} 14.43%, ${colors.bannerBackground2} 45.98%, ${colors.bannerBackground3} 77.53%, ${colors.bannerBackground4} 113.03%);
 `
 
 const BannerBackImg = styled.img`
     width: 100%;
-    //height: 100%;
 
     @media screen and (max-width: 430px) {
         content: url(${BannerBackground2});

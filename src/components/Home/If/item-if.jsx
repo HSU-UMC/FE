@@ -31,8 +31,13 @@ const IfP2 = styled.p`
 const IfInnerBox = styled(motion.div)`
   width: 100%;
   display: flex;
+  gap: 5.2rem;
   align-items: flex-start;
   justify-content: space-between;
+
+  @media screen and (max-width: 430px) {
+    gap: 2.14rem;
+  }
 `;
 
 const IfInnerImg = styled.img`
@@ -46,7 +51,6 @@ const IfInnerImg = styled.img`
 `;
 
 const RightContainer = styled.div`
-  width: 36.2rem;
   display: flex;
   flex-direction: column;
   text-align: left;

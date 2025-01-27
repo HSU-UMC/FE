@@ -6,7 +6,7 @@ import useScrollAnimation from "../../../hooks/Home/useScrollAnimation";
 const GoalContainer = styled.div`
     width: 100%;
     height: 32rem;
-    background: linear-gradient(90deg, ${colors.goalColor} 0%, ${colors.goalColor2} 100%);
+    background: linear-gradient(89.96deg, ${colors.bannerBackground1} -22.94%, ${colors.bannerBackground2} 1.62%, ${colors.bannerBackground3} 27.16%, ${colors.bannerBackground4} 83.88%);
     display: flex;
     justify-content: center;
     align-items: center;
