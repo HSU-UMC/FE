@@ -10,7 +10,7 @@ const HomeData = [
     },
     { 
         "id": 2, 
-        "title": "피엠데이",
+        "title": "PM데이",
         "explain": "아이디어를 바탕으로 다양한 파트의 팀원이 모여 함께 기획을 발전시킵니다.",
         "homeWeb": images['if3'],
         "homeMobile": images['if4']

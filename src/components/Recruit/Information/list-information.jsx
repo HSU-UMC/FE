@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import colors from "../../../styles/colors";
 import ItemInformation from "./item-information";
 
 const ListContainer = styled.div`

@@ -105,8 +105,8 @@ const Footer = () => {
                     </FooterLeftP>
                     <FooterRightP>
                         PM·DE : 임채현, 양유진<br/>
-                        FE : 양인서, 김다현, 윤혜성<br/>
-                        BE : 장수빈, 강다현
+                        FE : 윤혜성, 양인서<br/>
+                        BE : 김준용, 강다현
                     </FooterRightP>
                 </FooterContainer2>
             </FooterInnerContainer>
