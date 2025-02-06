@@ -47,35 +47,36 @@ const RecruitData = [
                 "period": "약 6개월"
             }
         ,
+        // 아직 기간 미정
         "recruitDate": [
             {
                 "id": 1,
                 "name": "1차 서류 지원",
-                "start": "2024.09.02(월)",
+                "start": "2025.02.17(월)",
                 "bar": "-",
-                "end": "09.08(일) 18시"
+                "end": "02.23(일) 18시"
             },
             {
                 "id": 2,
                 "name": "1차 서류 합격 발표",
-                "start": "2024.09.09(월)"
+                "start": "2025.02.24(월)"
             },
             {
                 "id": 3,
                 "name": "2차 면접 기간",
-                "start": "2024.09.10(화)",
+                "start": "2025.02.25(화)",
                 "bar": "-",
-                "end": "2024.09.12(목)"
+                "end": "2025.02.27(목)"
             },
             {
                 "id": 4,
                 "name": "최종 합격 발표",
-                "start": "2024.09.15(일)"
+                "start": "2025.03.02(일)"
             },
             {
                 "id": 5,
                 "name": "전체 OT",
-                "start": "2024.09.20(금) 18시"
+                "start": "2025.03.14(금) 18시"
             }
         ],
         "content": [
@@ -149,7 +150,7 @@ const RecruitData = [
         "information": [
             {
                 "id": 1,
-                "explain": "회비는 5만원 입니다."
+                "explain": "회비는 5만원 입니다.",
             },
             {
                 "id": 2,
@@ -161,7 +162,7 @@ const RecruitData = [
             },
             {
                 "id": 4,
-                "explain": "9월 20일(18:00 예정) OT 필수 참여하셔야 합니다."
+                "explain": "3월 14일(18:00 예정) OT 필수 참여하셔야 합니다."
             }
         ],
         "sns": [
@@ -173,7 +174,7 @@ const RecruitData = [
             {
                 "id": 2,
                 "name": "기타 문의는 카카오 오픈 채팅방",
-                "link": "https://open.kakao.com/o/soEpBOCf"
+                "link": "https://open.kakao.com/o/s9myjidh"
             }
         ]
     }
