@@ -23,7 +23,7 @@ const PartDiv = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: ${colors.recruitColor6};
+    background: ${colors.bannerBackground4};
     font-size: 2.8rem;
     line-height: 3.341rem;
     font-weight: 600;
@@ -82,7 +82,7 @@ const AnswerP = styled.p`
     font-size: 3.6rem;
     font-weight: 700;
     line-height: 4.296rem;
-    color: ${colors.recruitColor6};
+    color: ${colors.bannerBackground4};
 
     @media screen and (max-width: 430px) {
         font-weight: 600;

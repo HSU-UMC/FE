@@ -33,8 +33,8 @@ const PageButton = styled.div`
     height: 4.8rem;
     border-radius: 0.6rem;
     background: ${colors.white};
-    border: 0.15rem solid ${props => (props.active === "true" ? colors.qnaColor3 : colors.qnaColor2)};
-    color: ${props => (props.active === "true" ? colors.qnaColor3 : colors.footerColor)};
+    border: 0.15rem solid ${props => (props.active === "true" ? colors.bannerBackground4 : colors.qnaColor2)};
+    color: ${props => (props.active === "true" ? colors.bannerBackground4 : colors.footerColor)};
     cursor: pointer;
     font-size: 2rem;
     line-height: 2.42rem;
@@ -49,7 +49,7 @@ const PageButton = styled.div`
         width: 3rem;
         height: 3rem;
         border-radius: 0.4rem;
-        border: 0.094rem solid ${props => (props.active === "true" ? colors.qnaColor3 : colors.qnaColor2)};
+        border: 0.094rem solid ${props => (props.active === "true" ? colors.bannerBackground4 : colors.qnaColor2)};
         font-size: 1.2rem;
         line-height: 1.452rem;
     }

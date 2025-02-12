@@ -30,10 +30,9 @@ const StageBarImg = styled.img`
     transition: opacity 0.6s ease-out, clip-path 2s ease-out;
 
     @media screen and (max-width: 430px) {
-        width: 36.2rem;
+        width: 33.6rem;
         content: url(${StageBar2});
         margin-top: 3.457rem;
-        margin-left: 2rem;
     }
 `
 
@@ -82,6 +81,7 @@ const DetailContainer = styled.div`
     align-items: center;
     text-align: center;
     width: 14.4rem;
+
 
     @media screen and (max-width: 430px) {
         width: 7.659rem;

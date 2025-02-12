@@ -7,7 +7,7 @@ import Post2 from "../../../../assets/images/Qna/post2.png";
 const ButtonContainer = styled.div`
     width: 20.4rem;
     height: 5.2rem;
-    border: 0.2rem solid ${colors.recruitColor6};
+    border: 0.2rem solid ${colors.bannerBackground4};
     border-radius: 0.4rem;
     display: flex;
     gap: 1.2rem;
@@ -19,7 +19,7 @@ const ButtonContainer = styled.div`
     @media screen and (max-width: 430px) {
         width: 12rem;
         height: 2.8rem;
-        border: 0.1rem solid ${colors.recruitColor6};
+        border: 0.1rem solid ${colors.bannerBackground4};
         gap: 0.6rem;
         margin-top: 3.1rem;
     }
@@ -38,7 +38,7 @@ const ButtonP = styled.p`
     font-size: 2.2rem;
     font-weight: 500;
     line-height: 2.625rem;
-    color: ${colors.recruitColor6};
+    color: ${colors.bannerBackground4};
 
     @media screen and (max-width: 430px) {
         font-size: 1.4rem;

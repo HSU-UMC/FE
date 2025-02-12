@@ -40,16 +40,16 @@ const QP = styled.div`
     justify-content: center;
     align-items: center;
     border-radius: 31.25rem;
-    border: 1px solid #86FFF0;
+    border: 1px solid ${colors.bannerBackground4};
     font-size: 2.5rem;
     font-weight: 500;
-    color: #86FFF0;
+    color: ${colors.bannerBackground4};
 
     @media screen and (max-width: 430px) {
         font-size: 1.3rem;
         padding: 0.25rem 0.625rem;
         border-radius: 15.625rem;
-        border: 0.5px solid #86FFF0;
+        border: 0.5px solid ${colors.bannerBackground4};
     }
 `;
 
