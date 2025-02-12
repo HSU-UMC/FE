@@ -2,7 +2,8 @@ import { images } from "./loadImages";
 
 const ProjectData = [
     { 
-        "id": 1, 
+        "id": 1,
+        "type": "6기",
         "projectWeb": images['veganingWeb'],   // "/project" 주소에 나오는 웹버전 이미지
         "projectMobile": images['veganingMobile'],    // "/project" 주소에 나오는 모바일버전 이미지
         "projectDetailWeb": images['veganingDetailWeb'],   // "project/1" 주소에 나오는 웹버전 이미지
@@ -53,6 +54,7 @@ const ProjectData = [
     },
     { 
         "id": 2, 
+        "type": "6기",
         "projectWeb": images['stepperWeb'],
         "projectMobile": images['stepperMobile'],
         "projectDetailWeb": images['stepperDetailWeb'],
@@ -118,6 +120,7 @@ const ProjectData = [
     },
     { 
         "id": 3, 
+        "type": "6기",
         "projectWeb": images['wesaveWeb'],
         "projectMobile": images['wesaveMobile'],
         "projectDetailWeb": images['wesaveDetailWeb'],
@@ -160,6 +163,7 @@ const ProjectData = [
     },
     { 
         "id": 4, 
+        "type": "6기",
         "projectWeb": images['seokbakjiWeb'],
         "projectMobile": images['seokbakjiMobile'],
         "projectDetailWeb": images['seokbakjiDetailWeb'],
@@ -217,6 +221,7 @@ const ProjectData = [
     },
     { 
         "id": 5, 
+        "type": "6기",
         "projectWeb": images['kiokiWeb'],
         "projectMobile": images['kiokiMobile'],
         "projectDetailWeb": images['kiokiDetailWeb'],
@@ -266,6 +271,7 @@ const ProjectData = [
     },
     { 
         "id": 6, 
+        "type": "6기",
         "projectWeb": images['routeporterWeb'],
         "projectMobile": images['routeporterMobile'],
         "projectDetailWeb": images['routeporterDetailWeb'],
@@ -301,6 +307,7 @@ const ProjectData = [
     },
     { 
         "id": 7, 
+        "type": "6기",
         "projectWeb": images['plancapsuleWeb'],
         "projectMobile": images['plancapsuleMobile'],
         "projectDetailWeb": images['plancapsuleDetailWeb'],

@@ -1,9 +1,9 @@
 import axios from "axios";
 
+const baseURL = import.meta.env.VITE_BASE_URL;
+
 export const API = axios.create({
-    baseURL: "https://umc.hsuumc.site/",
-    //baseURL: "http://localhost:8080/",
-    //baseURL: "http://3.37.128.0/",
+    baseURL,
     headers: {
         "Content-Type": "application/json",
     },
