@@ -94,7 +94,7 @@ const Footer = () => {
             <FooterInnerContainer>
                 <TopContainer>
                     <FooterLogoImg src={FooterLogo1} alt="logo" />
-                    <FooterP>HSU_MAKE US CHALLENGE</FooterP>
+                    <FooterP>HSU_MAKEUS CHALLENGE</FooterP>
                 </TopContainer>
 
                 <FooterContainer2>
