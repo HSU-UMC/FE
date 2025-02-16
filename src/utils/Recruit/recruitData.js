@@ -75,7 +75,7 @@ const RecruitData = [
             {
                 "id": 5,
                 "name": "전체 OT",
-                "start": "2025.03.14(금) 17:30"
+                "start": "2025.03.14(금) 18:00"
             }
         ],
         "content": [
@@ -161,7 +161,7 @@ const RecruitData = [
             },
             {
                 "id": 4,
-                "explain": "3월 14일(17:30 예정) OT 필수 참여하셔야 합니다."
+                "explain": "3월 14일(18:00 예정) OT 필수 참여하셔야 합니다."
             }
         ],
         "sns": [
