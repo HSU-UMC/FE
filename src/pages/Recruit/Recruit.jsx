@@ -77,7 +77,7 @@ const Recruit = () => {
     }, []);
 
     const handleButtonClick = () => {
-        window.open("https://docs.google.com/forms/d/e/1FAIpQLSedke8PH5PUC7_dqcB215X22zqfVdOlREvpk7F6ThmoTuvmwA/closedform", "_blank", "noopener,noreferrer");
+        window.open("https://forms.gle/Ya8ih4YH9PsAc2Eu8", "_blank", "noopener,noreferrer");
     }
 
     return (
