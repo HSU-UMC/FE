@@ -7,7 +7,7 @@ const ListContainer = styled.div`
     margin-top: 5.9rem;
     width: 100%;
     display: flex;
-    gap: 2rem;
+    gap: 3.2rem;
     overflow-x: scroll;
 
     &::-webkit-scrollbar {
@@ -19,7 +19,7 @@ const ListContainer = styled.div`
 
     @media screen and (max-width: 430px) {
         margin-top: 2.3rem;
-        gap: 0.8rem;
+        gap: 0.5rem;
     }
 `;
 
