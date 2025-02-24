@@ -1,17 +1,18 @@
 import styled from "styled-components";
 import colors from "../../../styles/colors";
 import { useNavigate } from "react-router-dom";
+import ListProjectExplain from "./list-projectExplain";
 
 const ItemContainer = styled.div`
     width: calc(100% - 0rem / 2);
     border: none;
     border-radius: 0.4rem;
     overflow: hidden;
-    margin-bottom: 10rem;
+    margin-bottom: 11rem;
 
     @media screen and (max-width: 430px) {
         border-radius: 0.2rem;
-        margin-bottom: 2.6rem;
+        margin-bottom: 7.2rem;
     }
 `
 
@@ -48,7 +49,7 @@ const ProjectP2 = styled.p`
     }
 `
 
-const ItemProject = ({ id, projectMobile, projectWeb, title, explain }) => {
+const ItemProject = ({ id, projectMobile, projectWeb, title, subTitle }) => {
     const navigate = useNavigate();
 
     const handleDetail = () => {
@@ -59,7 +60,7 @@ const ItemProject = ({ id, projectMobile, projectWeb, title, explain }) => {
         <ItemContainer>
             <BackgroundImg src={window.innerWidth <= 430 ? projectMobile : projectWeb} alt="project" onClick={handleDetail}/>
             <ProjectP>{title}</ProjectP>
-            <ProjectP2>{explain}</ProjectP2>
+            <ListProjectExplain subTitle={subTitle} />
         </ItemContainer>
     );
 };

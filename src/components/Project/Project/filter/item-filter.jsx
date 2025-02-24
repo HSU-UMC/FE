@@ -3,7 +3,7 @@ import colors from "../../../../styles/colors";
 
 const ItemButton = styled.div`
     width: fit-content;
-    padding: 0.8rem 2rem;
+    padding: 0.8rem 4rem;
     border: ${({ selected }) => selected ? "none" : `0.1rem solid ${colors.bannerBackground4}`};
     border-radius: 50rem;
     display: flex;
@@ -20,7 +20,7 @@ const ItemButton = styled.div`
 
     @media screen and (max-width: 430px) {
         border: ${({ selected }) => selected ? "none" : `0.05rem solid ${colors.bannerBackground4}`};
-        padding: 0.4rem 1rem;
+        padding: 0.4rem 1.8rem;
         border-radius: 25rem;
         font-size: 1.4rem;
         line-height: 1.671rem;

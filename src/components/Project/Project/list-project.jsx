@@ -26,6 +26,7 @@ const ListProject = () => {
                     projectMobile={item.projectMobile}
                     title={item.title}
                     explain={item.explain}
+                    subTitle={item.subTitle}
                 />
             ))}
         </ListContainer>
