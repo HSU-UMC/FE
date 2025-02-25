@@ -3,18 +3,24 @@ import colors from "../../../styles/colors";
 import ItemPeople from "./item-people";
 
 const ListContainer = styled.div`
-    margin-top: 2rem;
-`
-
-const ListP = styled.p`
-    font-size: 2rem;
-    font-weight: 300;
-    line-height: 2.387rem;
-    color: ${colors.recruitColor};
+    width: 100%;
+    height: 17.7rem;
+    border: 0.17rem solid ${colors.bannerBackground4};
+    margin-top: 3.1rem;
+    border-radius: 0.68rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    padding: 0 2.9rem;
 
     @media screen and (max-width: 430px) {
-        font-size: 1.2rem;
-        line-height: 1.313rem;
+        height: 10.4rem;
+        border: 0.1rem solid ${colors.bannerBackground4};
+        border-radius: 0.4rem;
+        margin-top: 2.9rem;
+        gap: 1.2rem;
+        padding: 0 1.4rem;
     }
 `
 
@@ -27,7 +33,6 @@ const ListPeople = ({ data }) => {
                     explain={item.explain}
                 />
             ))}
-            <ListP>*졸업생은 신청이 불가합니다</ListP>
         </ListContainer>
     )
 }

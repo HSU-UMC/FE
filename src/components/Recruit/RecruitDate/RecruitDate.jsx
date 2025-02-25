@@ -7,13 +7,13 @@ const RecruitDateContainer = styled.div`
     width: 100%;
     height: 36rem;
     background: linear-gradient(90deg, ${colors.recruitColor3} 0%, ${colors.bannerBackground4} 100%);
-    margin-top: 4.6rem;
+    margin-top: 9.2rem;
     display: flex;
     align-items: center;
     justify-content: center;
 
     @media screen and (max-width: 430px) {
-        margin-top: 3.2rem;
+        margin-top: 6rem;
         height: 26.6rem;
     }
 `
@@ -35,7 +35,7 @@ const InnerP = styled.p`
     font-size: 2.4rem;
     font-weight: 700;
     line-height: 2.864rem;
-    color: ${colors.bannerBackground4};
+    color: ${colors.white};
 
     @media screen and (max-width: 430px) {
         font-size: 2rem;

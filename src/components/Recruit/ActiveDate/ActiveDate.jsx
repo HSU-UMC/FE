@@ -4,13 +4,8 @@ import colors from "../../../styles/colors";
 
 const ActiveContainer = styled.div`
     margin-top: 7.5rem;
-    height: 7.3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 
     @media screen and (max-width: 430px) {
-        height: 5.3rem;
         margin-top: 5.55rem;
     }
 `
@@ -19,23 +14,25 @@ const ActiveP = styled.p`
     font-size: 2.4rem;
     font-weight: 700;
     line-height: 2.864rem;
-    color: ${colors.bannerBackground4};
+    color: ${colors.white};
 
     @media screen and (max-width: 430px) {
         font-size: 1.8rem;
-        line-height: 1.909rem;
+        line-height: 2.148rem;
     }
 `
 
 const ActiveP2 = styled.p`
     font-size: 2.2rem;
-    font-weight: 300;
-    line-height: 2.387rem;
+    font-weight: 400;
+    line-height: 2.625rem;
     color: ${colors.white};
+    margin-top: 2rem;
 
     @media screen and (max-width: 430px) {
         font-size: 1.5rem;
         line-height: 1.432rem;
+        margin-top: 1.8rem;
     }
 `
 

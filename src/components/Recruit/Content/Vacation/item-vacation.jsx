@@ -1,47 +1,84 @@
 import styled from "styled-components";
 import colors from "../../../../styles/colors";
-import Content1 from "../../../../assets/images/Recruit/Content/content1.png";
-import Content2 from "../../../../assets/images/Recruit/Content/content2.png";
 
 const ItemContainer = styled.div`
-    display: flex;
+    margin: 1rem 0 2rem 0;
     width: 100%;
-    align-items: flex-start;
-    gap: 1.1rem;
-    margin-bottom: 2rem;
+    height: 14.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 2.3rem 2.6rem 2.3rem;
+    border-radius: 0.68rem;
+    border: 0.17rem solid ${colors.bannerBackground4};
+    position: relative;
 
     @media screen and (max-width: 430px) {
-        gap: 0.8rem;
-        margin-bottom: 1.1rem;
+        margin: 1rem 0;
+        height: 8.4rem;
+        padding: 0 1.4rem 1.4rem 1.4rem;
+        border-radius: 0.4rem;
+        border: 0.1rem solid ${colors.bannerBackground4};
     }
 `
 
-const ContentImg = styled.img`
-    width: 2.4rem;
-
-    @media screen and (max-width: 430px) {
-        content: url(${Content2});
-        width: 1.8rem;
-    }
-`
-
-const ContentP = styled.p`
+const TitleContainer = styled.div`
+    width: 10.54rem;
+    height: 3.74rem;
+    border-radius: 0.68rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: ${colors.recruitColor7};
+    position: absolute;
+    top: 0;
+    left: 0;
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 2.387rem;
     color: ${colors.white};
 
     @media screen and (max-width: 430px) {
+        width: 6.2rem;
+        height: 2.2rem;
+        border-radius: 0.4rem;
         font-size: 1.2rem;
-        line-height: 1.6rem;
+        line-height: 1.432rem;
     }
 `
 
-const ItemVacation = ({ explain }) => {
+const ContentWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+
+    @media screen and (max-width: 430px) {
+        gap: 0.7rem;
+    }
+`;
+
+const ContentP = styled.p`
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.148rem;
+    color: ${colors.white};
+    white-space: pre-line;
+
+    @media screen and (max-width: 430px) {
+        font-size: 1.1rem;
+        line-height: 1.313rem;
+    }
+`
+
+const ItemVacation = ({ title, explain }) => {
     return (
         <ItemContainer>
-            <ContentImg src={Content1} alt="content" />
-            <ContentP>{explain}</ContentP>
+            <TitleContainer>{title}</TitleContainer>
+            <ContentWrapper>
+                {explain.split("\n").map((line, index) => (
+                    <ContentP key={index}>{line}</ContentP>
+                ))}
+            </ContentWrapper>
         </ItemContainer>
     )
 }

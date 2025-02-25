@@ -86,9 +86,9 @@ const Recruit = () => {
             <Banner />
 
             <RecruitContainer>
-                <People data={recruitData} />
-                <Part data={recruitData} />
                 <ActiveDate data={recruitData} />
+                <Part data={recruitData} />
+                <People data={recruitData} />
             </RecruitContainer>
             
             <RecruitDate data={recruitData} />

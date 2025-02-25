@@ -5,10 +5,10 @@ import ListSNS from "./list-sns";
 
 const SNSContainer = styled.div`
     width: 100%;
-    margin-top: 6rem;
+    margin-top: 10.5rem;
 
     @media screen and (max-width: 430px) {
-        margin-top: 4.2rem;
+        margin-top: 6rem;
     }
 `
 
@@ -16,7 +16,7 @@ const SNSP = styled.p`
     font-size: 2.4rem;
     font-weight: 700;
     line-height: 2.864rem;
-    color: ${colors.bannerBackground4};
+    color: ${colors.white};
 
     @media screen and (max-width: 430px) {
         font-size: 1.6rem;
@@ -25,14 +25,16 @@ const SNSP = styled.p`
 `
 
 const SNSP2 = styled.p`
-    font-size: 2rem;
-    font-weight: 300;
-    line-height: 2.387rem;
+    font-size: 1.87rem;
+    font-weight: 400;
+    line-height: 2.232rem;
     color: ${colors.recruitColor};
+    padding-left: 2.3rem;
 
     @media screen and (max-width: 430px) {
         font-size: 1.1rem;
         line-height: 1.313rem;
+        padding-left: 1.4rem;
     }
 `
 
