@@ -4,7 +4,7 @@ import colors from "../../../styles/colors";
 const ItemContainer = styled.div`
     width: fit-content;
     padding: 0.8rem 2rem;
-    border: 0.1rem solid ${colors.white};
+    border: 0.1rem solid ${colors.bannerBackground4};
     border-radius: 50rem;
     display: flex;
     justify-content: center;
@@ -13,7 +13,7 @@ const ItemContainer = styled.div`
     font-size: 2.4rem;
     font-weight: 500;
     line-height: 2.864rem;
-    color: ${colors.white};
+    color: ${colors.bannerBackground4};
 
     @media screen and (max-width: 430px) {
         font-size: 1.2rem;

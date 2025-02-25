@@ -1,39 +1,42 @@
 import styled from "styled-components";
 import colors from "../../../styles/colors";
-import SNS1 from "../../../assets/images/Recruit/SNS/sns1.png";
-import SNS2 from "../../../assets/images/Recruit/SNS/sns2.png";
 
 const ItemContainer = styled.div`
     width: 100%;
+    height: 10.37rem;
     display: flex;
-    align-items: center;
-    gap: 1.2rem;
-    margin-bottom: 2rem;
+    align-items: flex-end;
+    border-radius: 0.68rem;
+    border: 0.17rem solid ${colors.bannerBackground4};
+    position: relative;
+    padding: 0 2.3rem 2.1rem 2.3rem;
+    margin-bottom: 1rem;
 
     @media screen and (max-width: 430px) {
-        gap: 0.8rem;
-        margin-bottom: 1.4rem;
+        height: 6.1rem;
+        border-radius: 0.4rem;
+        border: 0.1rem solid ${colors.bannerBackground4};
+        padding: 1.4rem;
     }
 `
 
-const ItemImg = styled.img`
-    width: 2.4rem;
-
-    @media screen and (max-width: 430px) {
-        width: 1.8rem;
-        content: url(${SNS2});
-    }
-`
-
-const ItemP = styled.p`
+const ItemP = styled.div`
+    padding: 0.7rem 2.3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0.68rem;
+    background: ${colors.recruitColor7};
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 2.387rem;
     color: ${colors.white};
 
     @media screen and (max-width: 430px) {
-        font-size: 1.1rem;
-        line-height: 1.313rem;
+        padding: 0.4rem 1.4rem;
+        border-radius: 0.4rem;
+        font-size: 1.2rem;
+        line-height: 1.432rem;
     }
 `
 
@@ -41,7 +44,7 @@ const ItemLink = styled.a`
     text-decoration: underline;
     cursor: pointer;
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 2.387rem;
     color: ${colors.white};
 
@@ -55,14 +58,10 @@ const ItemLink = styled.a`
     }
 `
 
-const ItemSNS = (props) => {
-    const { name, link } = props;
-
+const ItemSNS = ({ name, link }) => {
     return (
         <ItemContainer>
-            <ItemImg src={SNS1} alt="sns" />
-
-            <ItemP>{name} : </ItemP>
+            <ItemP>{name}</ItemP>
             <ItemLink href={link} target="_blank" rel="noopener noreferrer">{link}</ItemLink>
         </ItemContainer>
     )

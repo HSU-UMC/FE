@@ -6,10 +6,10 @@ import ListVacation from "./Vacation/list-vacation";
 
 const ContentContainer = styled.div`
     width: 100%;
-    margin-top: 5.3rem;
+    margin-top: 9.2rem;
 
     @media screen and (max-width: 430px) {
-        margin-top: 4rem;
+        margin-top: 6rem;
     }
 `
 
@@ -17,11 +17,11 @@ const ContentP = styled.p`
     font-size: 2.4rem;
     font-weight: 700;
     line-height: 2.864rem;
-    color: ${colors.bannerBackground4};
+    color: ${colors.white};
 
     @media screen and (max-width: 430px) {
         font-size: 1.8rem;
-        line-height: 1.909rem;
+        line-height: 2.148rem;
     }
 `
 

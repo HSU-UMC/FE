@@ -5,10 +5,10 @@ import ListInformation from "./list-information";
 
 const InformationContainer = styled.div`
     width: 100%;
-    margin-top: 8rem;
+    margin-top: 9.2rem;
 
     @media screen and (max-width: 430px) {
-        margin-top: 5.6rem;
+        margin-top: 6rem;
     }
 `
 
@@ -16,10 +16,10 @@ const InformationP = styled.p`
     font-size: 2.4rem;
     font-weight: 700;
     line-height: 2.864rem;
-    color: ${colors.bannerBackground4};
+    color: ${colors.white};
 
     @media screen and (max-width: 430px) {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         line-height: 1.909rem;
     }
 `

@@ -1,17 +1,19 @@
+import { images } from "./loadImages";
+
 const RecruitData = [
     {
         "people": [
             {
                 "id": 1,
-                "explain": "다른 학교 친구도 만나고 협업해보고 싶은 한성대학교 재학생 및 휴학생, 졸업 예정자"
+                "explain": "다른 학교 친구도 만나고 협업해보고 싶은"
             },
             {
                 "id": 2,
-                "explain": "넘치는 열정으로 새로운 것에 도전해 볼 한성대학교 재학생 및 휴학생, 졸업 예정자"
+                "explain": "넘치는 열정으로 새로운 것에 도전해보고 싶은"
             },
             {
                 "id": 3,
-                "explain": "아이디어 및 서비스 기획, UX/UI 디자인, 서비스 개발 프로젝트를 해보고 싶은 한성대학교 재학생 및 휴학생, 졸업 예정자"
+                "explain": "서비스 기획, UX/UI 디자인, IT 개발 프로젝트를 해보고 싶은"
             }
         ],
         "part": [
@@ -83,33 +85,25 @@ const RecruitData = [
                 "term": [
                     {
                         "id": 1,
-                        "explain": "3월부터 6월까지 각 파트 별로 제공되는 워크북에 있는 문제들을 스스로 해결해나갑니다."
+                        "title": "워크북",
+                        "explain": "3월부터 6월까지 파트 별 워크북에 있는 문제들을 스스로 해결해나갑니다."
                     },
                     {
                         "id": 2,
-                        "explain": "각 학교에서 대면 & 비대면으로 만나 파트 별로 상호 피드백 등의 스터디 활동을 진행합니다."
+                        "title": "스터디",
+                        "explain": "대면으로 파트 별로 상호 피드백의 스터디 활동을 진행합니다."
                     },
-                    {
-                        "id": 3,
-                        "explain": "스스로 작업해서 체득하는 시간이 꼭 필요합니다!"
-                    }
                 ],
                 "vacation": [
                     {
                         "id": 1,
-                        "explain": "스터디 수료 후 기준 충족자에 한해 25.07 ~ 25.08까지 두달 간 팀을 구성하여 사이드 프로젝트를 진행합니다."
+                        "title": "프로젝트",
+                        "explain": "스터디 수료 후 25.07 ~ 25.08까지 팀을 구성하여 프로젝트를 진행합니다.\n클라이언트 / 서버 / 디자이너 / 기획자로 팀이 구성됩니다."
                     },
                     {
                         "id": 2,
-                        "explain": "클라이언트 / 서버 / 디자이너 / 기획자로 팀이 구성됩니다."
-                    },
-                    {
-                        "id": 3,
-                        "explain": `프로젝트 후 "데모데이 해커톤" 을 통해 발표 및 교류를 진행합니다.`
-                    },
-                    {
-                        "id": 4,
-                        "explain": "데모데이까지 무사히 완수하시면 UMC 8기를 수료 하시게 됩니다!"
+                        "title": "데모데이",
+                        "explain": "프로젝트 후 \"UMC 데모데이\"를 통해 발표 및 교류를 진행합니다.\n데모데이까지 무사히 완수하시면 UMC 8기를 수료 하시게 됩니다!"
                     }
                 ]
             }
@@ -117,33 +111,99 @@ const RecruitData = [
         "competency": [
             {
                 "id": 1,
-                "name": "Plan(PM)",
-                "explain": "프로젝트의 진행 과정을 이해하고 있음 + Figma 툴 사용 기초"
+                "name": "Plan",
+                "explain": [
+                    {
+                        "id": 1,
+                        "name": "Figma",
+                        "WebImage": images["WebFigma"],
+                        "MobileImage": images["MobileFigma"],
+                    },
+                ]
             },
             {
                 "id": 2,
                 "name": "Design",
-                "explain": "Figma 툴 사용 기초"
+                "explain": [
+                    {
+                        "id": 1,
+                        "name": "Figma",
+                        "WebImage": images["WebFigma"],
+                        "MobileImage": images["MobileFigma"],
+                    },
+                ]
             },
             {
                 "id": 3,
-                "name": "iOS",
-                "explain": "Swift 기초"
+                "name": "Android",
+                "explain": [
+                    {
+                        "id": 1,
+                        "name": "Kotlin",
+                        "WebImage": images["WebKotlin"],
+                        "MobileImage": images["MobileKotlin"],
+                    },
+                ]
             },
             {
                 "id": 4,
-                "name": "Android",
-                "explain": "Kotlin (Java) 기초"
+                "name": "iOS",
+                "explain": [
+                    {
+                        "id": 1,
+                        "name": "Swift",
+                        "WebImage": images["WebSwift"],
+                        "MobileImage": images["MobileSwift"],
+                    },
+                ]
             },
             {
                 "id": 5,
                 "name": "Web",
-                "explain": "HTML/CSS + JavaScript 기초"
+                "explain": [
+                    {
+                        "id": 1,
+                        "name": "HTML",
+                        "WebImage": images["WebHtml"],
+                        "MobileImage": images["MobileHtml"],
+                    },
+                    {
+                        "id": 2,
+                        "name": "CSS",
+                        "WebImage": images["WebCss"],
+                        "MobileImage": images["MobileCss"],
+                    },
+                    {
+                        "id": 3,
+                        "name": "JavaScript",
+                        "WebImage": images["WebJavaScript"],
+                        "MobileImage": images["MobileJavaScript"],
+                    },
+                ]
             },
             {
                 "id": 6,
-                "name": "Server",
-                "explain": "SpringBoot / Node.js / CS, 네트워크 (컴퓨터 이론)"
+                "name": "SpringBoot",
+                "explain": [
+                    {
+                        "id": 1,
+                        "name": "Java",
+                        "WebImage": images["WebJava"],
+                        "MobileImage": images["MobileJava"],
+                    },
+                ]
+            },
+            {
+                "id": 7,
+                "name": "Node.js",
+                "explain": [
+                    {
+                        "id": 1,
+                        "name": "JavaScript",
+                        "WebImage": images["WebJavaScript"],
+                        "MobileImage": images["MobileJavaScript"],
+                    },
+                ]
             }
         ],
         "information": [
@@ -153,26 +213,26 @@ const RecruitData = [
             },
             {
                 "id": 2,
-                "explain": "정기적인 세미나는 없지만 12주간 교육 기간에 각 파트별로 스터디가 진행됩니다. 스터디는 학기 중에 시험 기간을 제외하고 대면으로 매주 진행되며, 모두 참여하셔야 합니다."
+                "explain": "3월 14일(18:00 예정) OT 필수 참여하셔야 합니다."
             },
             {
                 "id": 3,
-                "explain": "방중 데모데이는 반드시 참여하셔야 합니다!"
+                "explain": "12주간 교육 기간에 각 파트별로 스터디가 진행됩니다."
             },
             {
                 "id": 4,
-                "explain": "3월 14일(18:00 예정) OT 필수 참여하셔야 합니다."
+                "explain": "방중 데모데이는 반드시 참여하셔야 합니다!"
             }
         ],
         "sns": [
             {
                 "id": 1,
-                "name": "UMC 한성대 인스타",
-                "link": "https://www.instagram.com/hsu_makeus_challenge"
+                "name": "UMC 한성대 인스타그램",
+                "link": "@hsu_makeus_challenge"
             },
             {
                 "id": 2,
-                "name": "기타 문의는 카카오 오픈 채팅방",
+                "name": "UMC 한성대 카카오톡 오픈 채팅방",
                 "link": "https://open.kakao.com/o/s9myjidh"
             }
         ]

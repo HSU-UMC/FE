@@ -8,11 +8,6 @@ const ItemContainer = styled.div`
     display: flex;
     align-items: flex-start;
     gap: 0.8rem;
-    margin-bottom: 2rem;
-
-    @media screen and (max-width: 430px) {
-        margin-bottom: 1.4rem;
-    }
 `
 
 const ItemImg = styled.img`
