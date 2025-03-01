@@ -58,11 +58,11 @@ const ItemLink = styled.a`
     }
 `
 
-const ItemSNS = ({ name, link }) => {
+const ItemSNS = ({ name, link, linkName }) => {
     return (
         <ItemContainer>
             <ItemP>{name}</ItemP>
-            <ItemLink href={link} target="_blank" rel="noopener noreferrer">{link}</ItemLink>
+            <ItemLink href={link} target="_blank" rel="noopener noreferrer">{linkName}</ItemLink>
         </ItemContainer>
     )
 }
