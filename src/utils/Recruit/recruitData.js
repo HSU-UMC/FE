@@ -228,11 +228,13 @@ const RecruitData = [
             {
                 "id": 1,
                 "name": "UMC 한성대 인스타그램",
-                "link": "@hsu_makeus_challenge"
+                "linkName": "@hsu_makeus_challenge",
+                "link": "https://www.instagram.com/hsu_makeus_challenge"
             },
             {
                 "id": 2,
                 "name": "UMC 한성대 카카오톡 오픈 채팅방",
+                "linkName": "한성대 UMC 8기",
                 "link": "https://open.kakao.com/o/s9myjidh"
             }
         ]

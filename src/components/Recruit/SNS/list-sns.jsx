@@ -21,6 +21,7 @@ const ListSNS = ({ data }) => {
                     key={index}
                     name={item.name}
                     link={item.link}
+                    linkName={item.linkName}
                 />
             ))}
         </ListContainer>
