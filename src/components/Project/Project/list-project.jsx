@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import ItemProject from './item-project';
-import ProjectData from '../../../utils/Project/projectData';
 
 const ListContainer = styled.div`
     width: 100%;
@@ -15,10 +14,10 @@ const ListContainer = styled.div`
     }
 `;
 
-const ListProject = () => {
+const ListProject = ({ data }) => {
     return (
         <ListContainer>
-            {ProjectData.map((item, index) => (
+            {data.map((item, index) => (
                 <ItemProject 
                     key={index}
                     id={item.id}
