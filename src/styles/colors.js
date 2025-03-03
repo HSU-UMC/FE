@@ -27,6 +27,9 @@ const colors = {
     recruitColor6: "#86FFF0",
     recruitColor7: "#DA68BE",
     recruitColor8: "#F6FFF7",
+    recruitColor9: "#1B0014",
+    recruitColor10: "#621C51",
+    recruitColor11: "#995A89",
 
     staffLoginColor: "#E4E4E4",
     staffLoginColor2: "#040B2C",
