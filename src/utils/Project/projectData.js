@@ -566,7 +566,7 @@ const ProjectData = [
         ]
     },
     { 
-        "id": 10, 
+        "id": 11, 
         "type": "7기",
         "projectWeb": images['travelStarWeb'],
         "projectMobile": images['travelStarMobile'],
@@ -625,7 +625,7 @@ const ProjectData = [
         ]
     },
     { 
-        "id": 11, 
+        "id": 12, 
         "type": "7기",
         "projectWeb": images['TttWeb'],
         "projectMobile": images['TttMobile'],
@@ -667,7 +667,7 @@ const ProjectData = [
         ]
     },
     { 
-        "id": 12, 
+        "id": 13, 
         "type": "7기",
         "projectWeb": images['weggWeb'],
         "projectMobile": images['weggMobile'],
@@ -734,7 +734,7 @@ const ProjectData = [
         ]
     },
     { 
-        "id": 13, 
+        "id": 14, 
         "type": "7기",
         "projectWeb": images['digInWeb'],
         "projectMobile": images['digInMobile'],
@@ -800,7 +800,7 @@ const ProjectData = [
         ]
     },
     { 
-        "id": 14, 
+        "id": 15, 
         "type": "7기",
         "projectWeb": images['growItWeb'],
         "projectMobile": images['growItMobile'],
@@ -873,7 +873,7 @@ const ProjectData = [
         ]
     },
     { 
-        "id": 15, 
+        "id": 16, 
         "type": "7기",
         "projectWeb": images['ggsWeb'],
         "projectMobile": images['ggsMobile'],
@@ -923,7 +923,7 @@ const ProjectData = [
         ]
     },
     { 
-        "id": 16, 
+        "id": 17, 
         "type": "7기",
         "projectWeb": images['a1Web'],
         "projectMobile": images['a1Mobile'],
@@ -987,7 +987,7 @@ const ProjectData = [
         ]
     },
     { 
-        "id": 17, 
+        "id": 18, 
         "type": "7기",
         "projectWeb": images['farmOnWeb'],
         "projectMobile": images['farmOnMobile'],
