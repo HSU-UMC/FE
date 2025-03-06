@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import styled from "styled-components";
 import colors from "../../styles/colors";
 import ListProject from "../../components/Project/Project/list-project";
@@ -58,13 +58,19 @@ const Project = () => {
     }, []);
 
     const selectedType = FilterData.find(filter => filter.id === selectedId)?.type;
-    const filteredData = selectedId === 0 
-        ? projectData
-        : projectData.filter(project => project.type === selectedType);
-
+    const filteredData = useMemo(() => {
+        return selectedId === 0 
+            ? projectData
+            : projectData.filter(project => project.type === selectedType);
+    }, [selectedId, selectedType, projectData]);
+    
     const imageSrc = filteredData.length > 0 ? filteredData[0].projectWeb : ''; 
     const isLoading = useImageLoader(imageSrc);
 
+
+    console.log("selectedId:", selectedId);
+    console.log("selectedType:", selectedType);
+    console.log("Filtered Data:", filteredData);
     return (
         <div className="pageContainer">
             <ProjectContainer>
@@ -79,7 +85,7 @@ const Project = () => {
                             {filteredData.length > 0 ? (
                                 <ListProject data={filteredData} />
                             ) : (
-                                <NotP>7기 데모데이 기간 종료 후 업로드 될 예정입니다.</NotP>
+                                <NotP>8기 데모데이 기간 종료 후 업로드 될 예정입니다.</NotP>
                             )}
                         </>
                     )}
