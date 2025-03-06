@@ -511,6 +511,13 @@ const ProjectData = [
         "feel": [
             {
                 "id": 1,
+                "nickname": "핸",
+                "name": "윤혜성",
+                "part": "WEB",
+                "explain": "이번 '어디약' 프로젝트에서 프론트엔드로, 상비약 리스트 및 약국찾기 화면을 도맡아 구현했습니다. Next.js와 TypeScript의 조합으로 타입 안전성을 확보하면서 개발할 수 있었습니다.\n반응형 디자인 구현에 많은 공을 들였는데, 모바일에서도 최적화된 경험을 제공할 수 있게 되어 뿌듯합니다."
+            },
+            {
+                "id": 2,
                 "nickname": "세인트",
                 "name": "김준용",
                 "part": "SPRINGBOOT",
