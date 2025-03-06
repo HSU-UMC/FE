@@ -428,10 +428,10 @@ const ProjectData = [
     { 
         "id": 8, 
         "type": "7기",
-        "projectWeb": images['partNerdWeb'],
-        "projectMobile": images['partNerdMobile'],
-        "projectDetailWeb": images['routeporterDetailWeb'],
-        "projectDetailMobile": images['routeporterDetailMobile'],
+        "projectWeb": images['partnerdWeb'],
+        "projectMobile": images['partnerdMobile'],
+        "projectDetailWeb": images['partnerdDetailWeb'],
+        "projectDetailMobile": images['partnerdDetailMobile'],
         "project": "https://github.com/UMC-partNerd",
         "title": "partNerd",
         "detailExplain": "우리의 동아리를 홍보하고, 콜라보레이션 기능을 통해 타 IT 동아리와의 협업 및 프로젝트 인원을 모집할 수 있는 플랫폼입니다.",
@@ -485,12 +485,12 @@ const ProjectData = [
     { 
         "id": 9, 
         "type": "7기",
-        "projectWeb": images['whereDrugWeb'],
-        "projectMobile": images['whereDrugMobile'],
-        "projectDetailWeb": images['routeporterDetailWeb'],
-        "projectDetailMobile": images['routeporterDetailMobile'],
+        "projectWeb": images['wheredrugWeb'],
+        "projectMobile": images['wheredrugMobile'],
+        "projectDetailWeb": images['wheredrugDetailWeb'],
+        "projectDetailMobile": images['wheredrugDetailMobile'],
         "project": "https://github.com/PharmQuest",
-        "title": "어디약",
+        "title": "어디약?",
         "detailExplain": "해외에서 어떤 상비약을 사야할 지 막막한 사람들을 위해, 상비약 정보와 약국 위치를 한 곳에서 제공하는 서비스입니다. 나라별 상비약 정보와 주변 근처 약국 정보를 제공하며, 각 나라별 인기 영양제를 추천해 줍니다.",
         "people": [
             {
@@ -537,8 +537,8 @@ const ProjectData = [
         "type": "7기",
         "projectWeb": images['daengnyangWeb'],
         "projectMobile": images['daengnyangMobile'],
-        "projectDetailWeb": images['routeporterDetailWeb'],
-        "projectDetailMobile": images['routeporterDetailMobile'],
+        "projectDetailWeb": images['daengnyangDetailWeb'],
+        "projectDetailMobile": images['daengnyangDetailMobile'],
         "title": "댕냥스퀘어",
         "detailExplain": "한 눈에 접하는 우리동네 반려동물 지도 앱 서비스입니다. 날씨, 디데이 등 사용자에게 필요한 정보와 반려동물을 위한 정보를 제공합니다. 또한 견주들을 위해 산책 코스를 추천해주고, 커뮤니티를 통해 이웃들과 소통할 수 있습니다.",
         "people": [
@@ -546,7 +546,7 @@ const ProjectData = [
                 "id": 1,
                 "part": "서버",
                 "name": [
-                    "최승재"
+                    "임차민"
                 ]
             },
         ],
@@ -568,10 +568,10 @@ const ProjectData = [
     { 
         "id": 11, 
         "type": "7기",
-        "projectWeb": images['travelStarWeb'],
-        "projectMobile": images['travelStarMobile'],
-        "projectDetailWeb": images['routeporterDetailWeb'],
-        "projectDetailMobile": images['routeporterDetailMobile'],
+        "projectWeb": images['travelstarWeb'],
+        "projectMobile": images['travelstarMobile'],
+        "projectDetailWeb": images['travelstarDetailWeb'],
+        "projectDetailMobile": images['travelstarDetailMobile'],
         "project": "https://github.com/UMC-TravelStar",
         "title": "여행별",
         "detailExplain": "여행 일지를 간편하게 작성하며 추억과 감정을 기억하고 공유하는 서비스입니다. 일지에 작성한 위치를 기반으로 나만의 행성에 별이 찍히며, 본인 만의 별자리를 생성할 수 있습니다.",
@@ -627,10 +627,10 @@ const ProjectData = [
     { 
         "id": 12, 
         "type": "7기",
-        "projectWeb": images['TttWeb'],
-        "projectMobile": images['TttMobile'],
-        "projectDetailWeb": images['routeporterDetailWeb'],
-        "projectDetailMobile": images['routeporterDetailMobile'],
+        "projectWeb": images['tttWeb'],
+        "projectMobile": images['tttMobile'],
+        "projectDetailWeb": images['tttDetailWeb'],
+        "projectDetailMobile": images['tttDetailMobile'],
         "title": "Ttt",
         "detailExplain": "독서를 하고 싶지만 꾸준히 하기 어려운 MZ 세대들이 가벼운 마음으로 독서를 시작할 수 있도록 책&장소, 큐레이션, 북클럽 등을 제공하는 앱 서비스입니다.",
         "people": [
@@ -671,8 +671,8 @@ const ProjectData = [
         "type": "7기",
         "projectWeb": images['weggWeb'],
         "projectMobile": images['weggMobile'],
-        "projectDetailWeb": images['routeporterDetailWeb'],
-        "projectDetailMobile": images['routeporterDetailMobile'],
+        "projectDetailWeb": images['weggDetailWeb'],
+        "projectDetailMobile": images['weggDetailMobile'],
         "project": "https://github.com/UMCWegg",
         "title": "위그",
         "detailExplain": "자기 주도적 학습이 어려운 MZ 세대를 위한 공부 관리 서비스입니다. 기존의 학문적이고 형식적인 공부 앱에서 벗어나 자유롭고 유쾌한 분위기에서 공부 일정 및 습관을 관리 할 수 있습니다.",
@@ -736,12 +736,12 @@ const ProjectData = [
     { 
         "id": 14, 
         "type": "7기",
-        "projectWeb": images['digInWeb'],
-        "projectMobile": images['digInMobile'],
-        "projectDetailWeb": images['routeporterDetailWeb'],
-        "projectDetailMobile": images['routeporterDetailMobile'],
+        "projectWeb": images['diginWeb'],
+        "projectMobile": images['diginMobile'],
+        "projectDetailWeb": images['diginDetailWeb'],
+        "projectDetailMobile": images['diginDetailMobile'],
         "project": "https://github.com/UMC-7th",
-        "title": "이거먹자",
+        "title": "이거 먹자",
         "detailExplain": "하루하루 나만의 건강한 식단을 추천해주는 서비스로, AI 영양사가 개인 맞춤 식단을 제공합니다. 또한 실시간 시세 조회를 통해 식재료의 정보를 제공하고, 건강한 식단을 편리하게 배송받을 수 있는 맞춤 식단 구독 기능이 있습니다.",
         "people": [
             {
@@ -802,10 +802,10 @@ const ProjectData = [
     { 
         "id": 15, 
         "type": "7기",
-        "projectWeb": images['growItWeb'],
-        "projectMobile": images['growItMobile'],
-        "projectDetailWeb": images['routeporterDetailWeb'],
-        "projectDetailMobile": images['routeporterDetailMobile'],
+        "projectWeb": images['growitWeb'],
+        "projectMobile": images['growitMobile'],
+        "projectDetailWeb": images['growitDetailWeb'],
+        "projectDetailMobile": images['growitDetailMobile'],
         "project": "https://github.com/7-umc-GrowIT",
         "title": "그로우잇",
         "detailExplain": "음성 기반 AI로 대화하며, 일기와 마음 챙김 챌린지를 통해 정신 건강을 관리하는 앱 서비스입니다.",
@@ -877,8 +877,8 @@ const ProjectData = [
         "type": "7기",
         "projectWeb": images['ggsWeb'],
         "projectMobile": images['ggsMobile'],
-        "projectDetailWeb": images['routeporterDetailWeb'],
-        "projectDetailMobile": images['routeporterDetailMobile'],
+        "projectDetailWeb": images['ggsDetailWeb'],
+        "projectDetailMobile": images['ggsDetailMobile'],
         "title": "공각심",
         "detailExplain": "20~30대 대학생 및 구직자를 대상으로 맞춤 자격/시험 일정 관리와 학습 동기를 부여하는 앱 서비스입니다. 공각심은 공부와 경각심을 결합한 합성어로, 학습 경각심을 일깨웁니다.",
         "people": [
@@ -927,11 +927,11 @@ const ProjectData = [
         "type": "7기",
         "projectWeb": images['a1Web'],
         "projectMobile": images['a1Mobile'],
-        "projectDetailWeb": images['routeporterDetailWeb'],
-        "projectDetailMobile": images['routeporterDetailMobile'],
+        "projectDetailWeb": images['a1DetailWeb'],
+        "projectDetailMobile": images['a1DetailMobile'],
         "project": "https://github.com/UMC-7th-A1Grade",
         "title": "A1등급",
-        "detailExplain": "a1등급 설명 넣을 예정",
+        "detailExplain": "막막했던 수학 오답을 조금 더 친숙하게 만들고 효율적으로 제공해주며, 끊임 없이 학생들에게 더 나은 공부환경을 만들어 줍니다. 이처럼 학생들의 수학 공부를 위한 효율적인 공부 도우미 역할을 하는 서비스입니다.",
         "people": [
             {
                 "id": 1,
@@ -958,13 +958,20 @@ const ProjectData = [
         "feel": [
             {
                 "id": 1,
+                "nickname": "에리얼",
+                "name": "임채현",
+                "part": "DESIGN",
+                "explain": "평소 어려웠던 또는 접근하기 쉽지 않은 수학을 자유롭게 자신만의 노트로 문제를 풀며 필기까지 할 수 있도록 직관적인 UXUI 디자인을 구현하였습니다. 수학이라는 개념을 보다 친숙하게 다가갈 수 있도록 인터랙티브 모션을 활용해서 서비스 뿐만 아니라 수학에 흥미를 돋을 수 있도록 UX를 설계하였습니다. 또한 마치 자신만의 다이어리를 꾸미듯, 자율적으로 자신의 수학노트를 작성할 수 있도록 캐릭터와 함께 매력적인 UI디자인을 진행하였습니다.\n교내뿐만 아니라 타학교 분들과 협업하여, 설계한 화면을 다 구현할 수 있다는 점에서 추천드리고 싶습니다."
+            },
+            {
+                "id": 2,
                 "nickname": "아라",
                 "name": "송효재",
                 "part": "WEB",
                 "explain": "웹 프론트엔드 개발자로 참여하여 구글 로그인, 온보딩, 메인화면을 구현했습니다.\n사실 이렇게 프로젝트에 '개발자'로 참여한 게 처음이었기에 아쉬운 점도 많지만, 큰 성장을 한 거 같습니다. Git과 Github 사용 능력을 많이 키웠다는 게 가장 큰 성장인거 같아요. 또, 개발자의 상황을 더 이해할 수 있는 기획자가 됐다는 것도 큰 자산인거 같습니다. 앞으로는 이번 프로젝트 경험을 살려 더 멋진 기획자가 되는 게 계획입니다."
             },
             {
-                "id": 2,
+                "id": 3,
                 "nickname": "현다",
                 "name": "강다현",
                 "part": "SPRINGBOOT",
@@ -989,12 +996,12 @@ const ProjectData = [
     { 
         "id": 18, 
         "type": "7기",
-        "projectWeb": images['farmOnWeb'],
-        "projectMobile": images['farmOnMobile'],
-        "projectDetailWeb": images['routeporterDetailWeb'],
-        "projectDetailMobile": images['routeporterDetailMobile'],
+        "projectWeb": images['farmonWeb'],
+        "projectMobile": images['farmonMobile'],
+        "projectDetailWeb": images['farmonDetailWeb'],
+        "projectDetailMobile": images['farmonDetailMobile'],
         "project": "https://github.com/Farm-On",
-        "title": "FarmOn",
+        "title": "FarmON",
         "detailExplain": "농업을 변화시키는 새로운 연결고리인 디지털 솔루션입니다. 농업 데이터 기반으로 맞춤형 컨설팅을 제공하고, 전문가와 농업인 매칭 시스템을 통해 연결해주는 서비스를 제공합니다. 또한 디지털 커뮤니티로 실시간 농업 트렌드를 공유할 수 있습니다.",
         "people": [
             {
