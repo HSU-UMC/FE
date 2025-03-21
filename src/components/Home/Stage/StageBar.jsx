@@ -221,9 +221,12 @@ const StageBar = () => {
                 <DetailContainer>
                     <StageBarP1>2025.02</StageBarP1>
                     <StageBarP2>8TH UMC</StageBarP2>
-                    <PeopleBox2>
-                        <PeopleP2>모집중</PeopleP2>
-                    </PeopleBox2>
+                    <PeopleBox>
+                        <PeopleInner>
+                            <PeopleImg src={StagePeople1} alt="people" />
+                            <PeopleP>31</PeopleP>
+                        </PeopleInner>
+                    </PeopleBox>
                 </DetailContainer>
             </StageDetailContainer>
         </StageBarContainer>
