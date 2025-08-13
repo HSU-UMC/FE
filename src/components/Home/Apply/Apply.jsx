@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 import { useNavigate } from 'react-router-dom';
 import Arrow from '../../../assets/images/Home/Apply/arrow.png'; 
@@ -42,16 +41,6 @@ const BackgroundImage = styled.img`
   @media screen and (max-width: 430px) {
     width: 125%;
   }
-`;
-
-const Overlay = styled.div`
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(180deg, rgba(13, 36, 127, 0.00) 3.45%, #00092A 118.96%);
-  z-index: -1;
 `;
 
 const Title = styled.div`
@@ -146,7 +135,6 @@ const Apply = () => {
   return (
     <SectionContainer>
       <BackgroundImage src={ApplyBackground} alt="Apply Background" />
-      <Overlay />
       <Title>UMC와 함께 꿈을 펼쳐 보세요!</Title>
       <SubTitle>새로운 도전과 기회를 UMC 한성대와 함께 경험해보세요</SubTitle>
       <Button onClick={handleButtonClick}>
