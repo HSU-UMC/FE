@@ -1,4 +1,4 @@
-import { keyframes } from 'styled-components';
+import { keyframes } from "styled-components";
 
 export const fadeInUp = keyframes`
   0% {
@@ -55,7 +55,6 @@ export const slideDown = keyframes`
       clip-path: inset(0 0 0 0);
     }
 `;
-
 
 export const slideUp = keyframes`
     0% {
@@ -115,25 +114,6 @@ export const sparkleText = keyframes`
   50% {
     text-shadow: 0 0 5px rgba(255, 255, 255, 1), 0 0 10px rgba(255, 255, 255, 1);
     -webkit-text-stroke: 1px rgba(255, 255, 255, 1);
-  }
-`;
-
-export const sparkleImg = keyframes`
-  0%, 100% {
-    opacity: 1;
-    filter: brightness(1);
-  }
-  25% {
-    opacity: 0.3;
-    filter: brightness(1.25);
-  }
-  50% {
-    opacity: 0.6;
-    filter: brightness(1.5);
-  }
-  75% {
-    opacity: 0.3;
-    filter: brightness(1.25);
   }
 `;
 
