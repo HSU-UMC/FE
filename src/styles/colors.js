@@ -1,5 +1,16 @@
 const colors = {
-  primary: "#6366f1",
+  primary_50: "#eeeeff",
+  primary_100: "#e0e1ff",
+  primary_200: "#c7c8fe",
+  primary_300: "#a5a7fc",
+  primary_400: "#8184f8",
+  primary_500: "#6366f1",
+  primary_600: "#4649e5",
+  primary_700: "#383bca",
+  primary_800: "#3032a3",
+  primary_900: "#2e3081",
+  primary_950: "#1b1c4b",
+
   secondary: "#a855f7",
   tertiary: "#ec4899",
   quaternary: "#f97316",
