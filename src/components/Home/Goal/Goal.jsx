@@ -6,7 +6,7 @@ import useScrollAnimation from "../../../hooks/Home/useScrollAnimation";
 const GoalContainer = styled.div`
     width: 100%;
     height: 32rem;
-    background: linear-gradient(89.96deg, ${colors.bannerBackground1} -22.94%, ${colors.bannerBackground2} 1.62%, ${colors.bannerBackground3} 27.16%, ${colors.bannerBackground4} 83.88%);
+    background: ${colors.black};
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,6 +89,58 @@ const CircleDiv = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+
+    &:hover {
+        border-color: rgba(255, 255, 255, 0.4);
+        background: rgba(255, 255, 255, 0.05);
+        transform: translateY(-3px);
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, 
+            transparent, 
+            rgba(255, 255, 255, 0.3), 
+            transparent
+        );
+        animation: circleShining 4s infinite;
+        z-index: 1;
+        pointer-events: none;
+    }
+
+    &:nth-child(1)::before {
+        animation-delay: 0s;
+    }
+
+    &:nth-child(2)::before {
+        animation-delay: 1.3s;
+    }
+
+    &:nth-child(3)::before {
+        animation-delay: 2.6s;
+    }
+
+    @keyframes circleShining {
+        0% { 
+            left: -100%; 
+            opacity: 0;
+        }
+        50% { 
+            opacity: 1;
+        }
+        100% { 
+            left: 100%; 
+            opacity: 0;
+        }
+    }
 
     @media screen and (max-width: 430px) {
         border: 0.055rem solid ${colors.white};
@@ -100,8 +152,8 @@ const CircleDiv = styled.div`
 `
 
 const Goal = () => {
-    const { elementRef } = useScrollAnimation(); 
-
+    const { elementRef } = useScrollAnimation();
+  
     return (
         <GoalContainer ref={elementRef}>
             <GoalInnerContainer>
