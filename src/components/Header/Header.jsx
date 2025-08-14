@@ -12,17 +12,18 @@ const HeaderContainer = styled.div`
     width: 100%;
     display: flex;
     justify-content: center;
+    position: fixed;
     top: 0;
+    left: 0;
     z-index: 1000;
     height: 8.3rem;
     background: ${({ scrolled, menuOpen }) =>
         menuOpen
-            ? `${colors.headerBackground}`
+            ? `${colors.black}`
             : scrolled
-            ? 'var(--, linear-gradient(270deg, rgba(255, 255, 255, 0.00) -26.79%, rgba(0, 0, 0, 0.20) -6.82%, rgba(22, 22, 22, 0.18) 11.15%, rgba(255, 255, 255, 0.04) 123.81%))'
+            ? 'rgba(0, 0, 0, 0.9)'
             : 'transparent'};
-    background-blend-mode: overlay;
-    backdrop-filter: ${({ scrolled, menuOpen }) => (scrolled || menuOpen ? 'blur(75px)' : 'none')};
+    backdrop-filter: ${({ scrolled, menuOpen }) => (scrolled || menuOpen ? 'blur(10px)' : 'none')};
     transition: background 0.3s ease-in-out, backdrop-filter 0.3s ease-in-out;
 
     @media screen and (max-width: 430px) {
