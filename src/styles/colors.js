@@ -11,6 +11,18 @@ const colors = {
   primary_900: "#2e3081",
   primary_950: "#1b1c4b",
 
+  gray_50: "#FAFAFA",
+  gray_100: "#F5F5F5",
+  gray_200: "#EEEEEE",
+  gray_300: "#E0E0E0",
+  gray_400: "#BDBDBD",
+  gray_500: "#9E9E9E",
+  gray_600: "#757575",
+  gray_700: "#616161",
+  gray_800: "#424242",
+  gray_900: "#212121",
+  gray_950: "#0A0A0A",
+
   secondary: "#a855f7",
   tertiary: "#ec4899",
   quaternary: "#f97316",
@@ -32,9 +44,9 @@ const colors = {
   footerColor2: "#DDDDDD",
   footerColor3: "#8E8E8E",
 
-  headerBackground: "#02061F",
+  headerBackground: "#000000",
 
-  menuBackground: "#08123E",
+  menuBackground: "#0a0a0a",
   menuColor: "#868B93",
 
   recruitColor: "#C4C4C4",
