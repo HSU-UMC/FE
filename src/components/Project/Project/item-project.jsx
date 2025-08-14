@@ -26,26 +26,12 @@ const ProjectP = styled.p`
     font-size: 2.8rem;
     font-weight: 600;
     line-height: 3.341rem;
-    color: ${colors.introColor};
+    color: ${colors.gray_100};
     margin-top: 4rem;
 
     @media screen and (max-width: 430px) {
         font-size: 1.6rem;
         margin-top: 1.6rem;   
-    }
-`
-
-const ProjectP2 = styled.p`
-    width: 100%;
-    font-size: 2.4rem;
-    font-weight: 400;
-    line-height: 2.864rem;
-    color: ${colors.introColor};
-    margin-top: 0.8rem;
-
-    @media screen and (max-width: 430px) {
-        font-size: 1.4rem;
-        line-height: 1.671rem;
     }
 `
 

@@ -15,7 +15,7 @@ const PeopleP = styled.p`
     font-size: 3.6rem;
     font-weight: 700;
     line-height: 4.296rem;
-    color: ${colors.introColor};
+    color: ${colors.gray_50};
 
     @media screen and (max-width: 430px) {
         font-size: 2rem;

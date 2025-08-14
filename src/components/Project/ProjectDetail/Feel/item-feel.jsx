@@ -29,7 +29,7 @@ const FeelP = styled.p`
     font-size: 2.8rem;
     font-weight: 600;
     line-height: 3.341rem;
-    color: ${colors.introColor};
+    color: ${colors.gray_200};
 
     @media screen and (max-width: 430px) {
         font-size: 1.4rem;
@@ -40,7 +40,7 @@ const FeelP = styled.p`
 const PartDiv = styled.div`
     width: fit-content;
     padding: 0.8rem 2rem;
-    border: 0.1rem solid ${colors.white};
+    border: 0.1rem solid ${colors.gray_500};
     border-radius: 50rem;
     display: flex;
     justify-content: center;
@@ -49,7 +49,7 @@ const PartDiv = styled.div`
     font-size: 2.4rem;
     font-weight: 600;
     line-height: 2.864rem;
-    color: ${colors.introColor};
+    color: ${colors.gray_500};
 
     @media screen and (max-width: 430px) {
         padding: 0.4rem 1rem;
@@ -64,7 +64,7 @@ const FeelP2 = styled.p`
     font-size: 2rem;
     font-weight: 400;
     line-height: 3.6rem;
-    color: ${colors.introColor};
+    color: ${colors.gray_400};
 
     @media screen and (max-width: 430px) {
         font-size: 1.2rem;

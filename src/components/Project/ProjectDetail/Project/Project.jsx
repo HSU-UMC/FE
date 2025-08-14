@@ -14,7 +14,7 @@ const ProjectTitle = styled.p`
     font-size: 3.6rem;
     font-weight: 700;
     line-height: 4.296rem;
-    color: ${colors.introColor};
+    color: ${colors.gray_900};
 
     @media screen and (max-width: 430px) {
         font-size: 2rem;
@@ -27,7 +27,7 @@ const ProjectDescription = styled.a`
     font-weight: 400;
     font-size: 2.8rem;
     line-height: 4.6rem;
-    color: ${colors.introColor};
+    color: ${colors.gray_900};
     margin-top: 1.6rem;
     text-decoration: none;
 
