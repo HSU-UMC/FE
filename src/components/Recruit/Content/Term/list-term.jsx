@@ -11,7 +11,7 @@ const ListP = styled.p`
     font-size: 2rem;
     font-weight: 600;
     line-height: 2.387rem;
-    color: ${colors.bannerBackground4};
+    color: ${colors.primary_500};
 
     @media screen and (max-width: 430px) {
         font-size: 1.6rem;
@@ -36,7 +36,7 @@ const ContentP = styled.p`
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.909rem;
-    color: ${colors.recruitColor};
+    color: ${colors.gray_600};
 
     @media screen and (max-width: 430px) {
         font-size: 1.1rem;

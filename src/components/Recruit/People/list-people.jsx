@@ -5,7 +5,7 @@ import ItemPeople from "./item-people";
 const ListContainer = styled.div`
     width: 100%;
     height: 17.7rem;
-    border: 0.17rem solid ${colors.bannerBackground4};
+    border: 0.17rem solid ${colors.primary_700};
     margin-top: 3.1rem;
     border-radius: 0.68rem;
     display: flex;
@@ -16,7 +16,7 @@ const ListContainer = styled.div`
 
     @media screen and (max-width: 430px) {
         height: 10.4rem;
-        border: 0.1rem solid ${colors.bannerBackground4};
+        border: 0.1rem solid ${colors.primary_700};
         border-radius: 0.4rem;
         margin-top: 2.9rem;
         gap: 1.2rem;

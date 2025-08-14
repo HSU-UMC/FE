@@ -16,7 +16,7 @@ const PeopleP = styled.p`
     font-size: 2.4rem;
     font-weight: 700;
     line-height: 2.864rem;
-    color: ${colors.white};
+    color: ${colors.gray_50};
 
     @media screen and (max-width: 430px) {
         font-size: 1.8rem;
@@ -40,7 +40,7 @@ const PeopleP3 = styled(PeopleP2)`
     font-size: 1.9rem;
     line-height: 2.267rem;
     margin-top: 0.8rem;
-    color: ${colors.recruitColor};
+    color: ${colors.gray_600};
 
     @media screen and (max-width: 430px) {
         font-size: 1.1rem;

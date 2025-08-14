@@ -23,7 +23,7 @@ const ItemP = styled.p`
     font-size: 2rem;
     font-weight: 300;
     line-height: 2.387rem;
-    color: ${colors.white};
+    color: ${colors.gray_400};
 
     @media screen and (max-width: 430px) {
         font-size: 1.2rem;

@@ -11,11 +11,11 @@ const NumberCircle = styled.div`
     height: 3.2rem;
     border: none;
     border-radius: 50%;
-    background: ${colors.white};
+    background: ${colors.primary_100};
     font-size: 2rem;
     font-weight: 600;
     line-height: 2.387rem;
-    color: ${colors.recruitColor4};
+    color: ${colors.gray_950};
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +35,7 @@ const ItemP = styled.p`
     font-size: 2rem;
     font-weight: 600;
     line-height: 2.387rem;
-    color: ${colors.white};
+    color: ${colors.gray_100};
     min-width: 30.382rem;
 
     @media screen and (max-width: 430px) {
@@ -49,7 +49,7 @@ const ItemP2 = styled.p`
     font-size: 2rem;
     font-weight: 500;
     line-height: 2.387rem;
-    color: ${colors.white};
+    color: ${colors.gray_400};
 
     @media screen and (max-width: 430px) {
         font-size: 1.2rem;

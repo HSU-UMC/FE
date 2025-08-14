@@ -16,7 +16,7 @@ const SNSP = styled.p`
     font-size: 2.4rem;
     font-weight: 700;
     line-height: 2.864rem;
-    color: ${colors.white};
+    color: ${colors.gray_50};
 
     @media screen and (max-width: 430px) {
         font-size: 1.6rem;
@@ -28,7 +28,7 @@ const SNSP2 = styled.p`
     font-size: 1.87rem;
     font-weight: 400;
     line-height: 2.232rem;
-    color: ${colors.recruitColor};
+    color: ${colors.gray_600};
     padding-left: 2.3rem;
 
     @media screen and (max-width: 430px) {

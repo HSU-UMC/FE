@@ -7,7 +7,7 @@ const ListContainer = styled.div`
     width: 100%;
     height: 20.23rem;
     border-radius: 0.68rem;
-    border: 0.17rem solid ${colors.bannerBackground4};
+    border: 0.17rem solid ${colors.primary_700};
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,7 +17,7 @@ const ListContainer = styled.div`
     @media screen and (max-width: 430px) {
         height: 11.9rem;
         border-radius: 0.4rem;
-        border: 0.1rem solid ${colors.bannerBackground4};
+        border: 0.1rem solid ${colors.primary_700};
         padding: 0 1.4rem;
         gap: 1.2rem;
     }
@@ -27,7 +27,7 @@ const InformationP = styled.p`
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 2.148rem;
-    color: ${colors.recruitColor};
+    color: ${colors.gray_600};
     padding-left: 2.9rem;   
     margin-top: 2rem;
 

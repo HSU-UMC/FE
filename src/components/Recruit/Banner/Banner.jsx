@@ -7,7 +7,8 @@ const BannerContainer = styled.div`
     width: 100%;
     height: 12rem;
     margin-top: 2rem;
-    background: linear-gradient(-89.78deg, ${colors.bannerBackground1} 23.5%, ${colors.bannerBackground2} 46.8%, ${colors.bannerBackground3} 70.11%, ${colors.bannerBackground4} 116.72%);
+    background: linear-gradient(90deg, ${colors.primary_500} 0%, ${colors.tertiary} 100%);
+
     display: flex;
     justify-content: center;
     align-items: center;
