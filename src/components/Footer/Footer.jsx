@@ -5,7 +5,7 @@ import FooterLogo2 from "../../assets/images/Footer/footerLogo2.png";
 
 const FooterContainer = styled.div`
     width: 100%;
-    background-color: ${colors.footerColor};
+    background-color: ${colors.black};
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,7 +66,7 @@ const FooterLeftP = styled.p`
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 2.4rem;
-    color: ${colors.footerColor2};
+    color: ${colors.gray_600};
     text-align: left;
 
     @media screen and (max-width: 430px) {
@@ -80,7 +80,7 @@ const FooterRightP = styled.p`
     font-weight: 400;
     text-align: right;
     line-height: 2.4rem;
-    color: ${colors.footerColor3};
+    color: ${colors.gray_800};
 
     @media screen and (max-width: 430px) {
         font-size: 0.8rem;
@@ -99,9 +99,8 @@ const Footer = () => {
 
                 <FooterContainer2>
                     <FooterLeftP>
-                        이용약관 | 개인정보보호처리방침<br/>
-                        copyright @ hsu_makeus_challenge <br/>
-                        All rights reserved 
+                        copyright ⓒhsu_makeus_challenge.<br/>
+                        All rights reserved.
                     </FooterLeftP>
                     <FooterRightP>
                         PM·DE : 임채현, 양유진<br/>
