@@ -90,7 +90,7 @@ const ButtonDiv = styled.div`
 `
 
 const ButtonDiv2 = styled(ButtonDiv)`
-    background: ${colors.bannerBackground4};
+    background: ${colors.primary_700};
 `
 
 const Modal = ({ id, onClose }) => {

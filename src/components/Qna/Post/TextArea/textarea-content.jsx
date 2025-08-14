@@ -14,7 +14,7 @@ const TextAreaContainer = styled.textarea`
     font-size: 2.4rem;
     font-weight: 400;
     line-height: 4.6rem;
-    color: ${colors.qnaColor};
+    color: ${colors.gray_100};
     cursor: pointer;
     resize: none;
 

@@ -49,14 +49,14 @@ const RecruitButton = styled.div`
     font-size: 3.2rem;
     font-weight: 800;
     line-height: 3.819rem;
-    color: ${colors.footerColor};
-    background: ${colors.white};
+    color: ${colors.gray_950};
+    background: ${colors.primary_50};
     margin: 13.898rem 0 8rem 0;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 
     &:hover {
-        background-color: ${colors.footerColor};
-        color: ${colors.white};
+        background-color: ${colors.primary_100};
     }
 
     @media screen and (max-width: 430px) {

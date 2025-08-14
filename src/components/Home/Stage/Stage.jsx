@@ -66,7 +66,7 @@ const StageP2 = styled.p`
     font-weight: 400;
     line-height: 4rem;
     text-align: center;
-    color: ${colors.introColor2};
+    color: ${colors.gray_500};
     margin-top: 8.2rem;
 
     @media screen and (max-width: 430px) {

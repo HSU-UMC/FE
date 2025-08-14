@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 import Banner from "../../components/Home/Banner/Banner";
 import Intro from "../../components/Home/Intro/Intro";

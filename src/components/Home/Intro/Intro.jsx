@@ -83,7 +83,7 @@ const IntroP2 = styled.p`
     font-size: 2.8rem;
     font-weight: 600;
     line-height: 2rem;
-    color: ${colors.introColor};
+    color: ${colors.gray_200};
     margin-top: 3.4rem;
 
     @media screen and (max-width: 430px) {
@@ -99,7 +99,7 @@ const IntroP3 = styled.p`
     font-weight: 600;
     line-height: 4rem;
     text-align: center;
-    color: ${colors.introColor2};
+    color: ${colors.gray_500};
     margin-top: 1.6rem;
 
     span {

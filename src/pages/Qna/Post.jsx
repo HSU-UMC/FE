@@ -36,7 +36,7 @@ const QnaP = styled.p`
 const QnaP2 = styled(QnaP)`
     width: 100%;
     font-weight: 700;
-    color: ${colors.introColor};
+    color: ${colors.gray_50};
     margin-top: 7rem;
 
     @media screen and (max-width: 430px) {
@@ -51,7 +51,7 @@ const QnaP3 = styled.p`
     font-size: 3.2rem;
     font-weight: 500;
     line-height: 3.819rem;
-    color: ${colors.introColor};
+    color: ${colors.gray_400};
     margin-top: 7.6rem;
 
     @media screen and (max-width: 430px) {
@@ -83,7 +83,7 @@ const UploadButton = styled.button`
     font-weight: 800;
     font-size: 3.2rem;
     line-height: 3.819rem;
-    color: ${props => props.disabled ? 'rgba(255, 255, 255, 0.5)' : colors.footerColor};
+    color: ${props => props.disabled ? 'rgba(255, 255, 255, 0.5)' : colors.black};
     margin: 12rem 0 8rem 0;
     cursor: ${props => props.disabled ? 'not-allowed' : 'pointer'};
 

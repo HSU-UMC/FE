@@ -87,7 +87,7 @@ const SubmitButton = styled.div`
     font-size: 3.2rem;
     font-weight: 800;
     line-height: 3.819rem;
-    color: ${colors.footerColor};
+    color: ${colors.black};
     background: ${colors.white};
     margin: 5.255rem 0 8rem 0;
 `;
