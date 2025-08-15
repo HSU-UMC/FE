@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 import colors from "./colors";
 
 const GlobalStyle = createGlobalStyle`
@@ -48,6 +48,11 @@ const GlobalStyle = createGlobalStyle`
         touch-action: manipulation;
         background-size: 100%;
         background-repeat: no-repeat;
+        padding-top: 8.3rem;
+
+        @media screen and (max-width: 430px) {
+            padding-top: 7.659rem;
+        }
     }
     menu, ol, ul {
         list-style: none;
@@ -77,7 +82,7 @@ const GlobalStyle = createGlobalStyle`
         scroll-behavior: smooth;
         font-size: 62.5%;
         min-height: 100vh;
-        background: linear-gradient(179.93deg, ${colors.background1} -11.2%, ${colors.background2} 67.48%, ${colors.background3} 90.93%);
+        background: ${colors.black};
         background-size: cover;
         background-repeat: no-repeat;
         overflow: auto;

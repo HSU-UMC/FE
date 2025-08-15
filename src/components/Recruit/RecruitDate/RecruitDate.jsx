@@ -6,7 +6,8 @@ import ListRecruitDate from "./list-recruitDate";
 const RecruitDateContainer = styled.div`
     width: 100%;
     height: 36rem;
-    background: linear-gradient(90deg, ${colors.recruitColor9} 0%, ${colors.recruitColor10} 100%);
+    background: linear-gradient(0deg, rgba(0,0,0,0) 15%, rgba(27,28,75,0.3) 50%, rgba(0,0,0,0) 85%
+);
     margin-top: 9.2rem;
     display: flex;
     align-items: center;
@@ -35,7 +36,7 @@ const InnerP = styled.p`
     font-size: 2.4rem;
     font-weight: 700;
     line-height: 2.864rem;
-    color: ${colors.white};
+    color: ${colors.gray_50};
 
     @media screen and (max-width: 430px) {
         font-size: 2rem;

@@ -1,13 +1,12 @@
 import styled from "styled-components";
 import colors from "../../../../styles/colors";
 import { useNavigate } from "react-router-dom";
-import Post1 from "../../../../assets/images/Qna/post1.png";
-import Post2 from "../../../../assets/images/Qna/post2.png";
+import EditIcon from "../../../../assets/icons/EditIcon";
 
 const ButtonContainer = styled.div`
     width: 20.4rem;
     height: 5.2rem;
-    border: 0.2rem solid ${colors.bannerBackground4};
+    border: 0.2rem solid ${colors.primary_900};
     border-radius: 0.4rem;
     display: flex;
     gap: 1.2rem;
@@ -19,18 +18,9 @@ const ButtonContainer = styled.div`
     @media screen and (max-width: 430px) {
         width: 12rem;
         height: 2.8rem;
-        border: 0.1rem solid ${colors.bannerBackground4};
+        border: 0.1rem solid ${colors.primary_900};
         gap: 0.6rem;
         margin-top: 3.1rem;
-    }
-`
-
-const ButtonImg = styled.img`
-    width: 3.2rem;
-
-    @media screen and (max-width: 430px) {
-        width: 1.8rem;
-        content: url(${Post2});
     }
 `
 
@@ -38,7 +28,7 @@ const ButtonP = styled.p`
     font-size: 2.2rem;
     font-weight: 500;
     line-height: 2.625rem;
-    color: ${colors.bannerBackground4};
+    color: ${colors.primary_800};
 
     @media screen and (max-width: 430px) {
         font-size: 1.4rem;
@@ -55,7 +45,7 @@ const ButtonPost = () => {
 
     return (
         <ButtonContainer onClick={handlePost}>
-            <ButtonImg src={Post1} alt="post" />
+            <EditIcon />
             <ButtonP>질문 작성하기</ButtonP>
         </ButtonContainer>
     )

@@ -15,7 +15,7 @@ const InputContainer = styled.input`
     font-size: 2.4rem;
     line-height: 4.6rem;
     font-weight: 400;
-    color: ${colors.qnaColor};
+    color: ${colors.gray_100};
     font-family: Pretendard;
     cursor: pointer;
 

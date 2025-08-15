@@ -12,7 +12,7 @@ const ItemP = styled.p`
     font-size: 2rem;
     font-weight: 300;
     line-height: 3.8rem;
-    color: ${colors.white};
+    color: ${colors.gray_100};
 
     @media screen and (max-width: 430px) {
         width: 8.8rem;
@@ -55,7 +55,7 @@ const ExplainP = styled.p`
     font-size: 2rem;
     font-weight: 400;
     line-height: 2.387rem;
-    color: ${colors.recruitColor8};
+    color: ${colors.gray_200};
 
     @media screen and (max-width: 430px) {
         font-size: 1.2rem;

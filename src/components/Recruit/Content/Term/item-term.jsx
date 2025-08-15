@@ -8,7 +8,7 @@ const ItemContainer = styled.div`
     display: flex;
     padding: 0 2.3rem 2.6rem 2.3rem;
     border-radius: 0.68rem;
-    border: 0.17rem solid ${colors.bannerBackground4};
+    border: 0.17rem solid ${colors.primary_700};
     align-items: flex-end;
     position: relative;
 
@@ -17,7 +17,7 @@ const ItemContainer = styled.div`
         height: 6.1rem;
         padding: 0 1.4rem 1.4rem 1.4rem;
         border-radius: 0.4rem;
-        border: 0.1rem solid ${colors.bannerBackground4};
+        border: 0.1rem solid ${colors.primary_700};
     }
 `
 
@@ -28,7 +28,7 @@ const TitleContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background: ${colors.recruitColor7};
+    background: ${colors.primary_700};
     position: absolute;
     top: 0;
     left: 0;
@@ -50,7 +50,7 @@ const ContentP = styled.p`
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 2.148rem;
-    color: ${colors.white};
+    color: ${colors.gray_400};
 
     @media screen and (max-width: 430px) {
         font-size: 1.1rem;

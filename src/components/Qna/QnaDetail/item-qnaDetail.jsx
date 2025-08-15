@@ -22,11 +22,11 @@ const PartDiv = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: ${colors.bannerBackground4};
+    background: ${colors.primary_500};
     font-size: 2.8rem;
     line-height: 3.341rem;
     font-weight: 600;
-    color: ${colors.footerColor};
+    color: ${colors.black};
     margin-bottom: 4rem;
 
     @media screen and (max-width: 430px) {
@@ -43,7 +43,7 @@ const TitleP = styled.p`
     font-size: 3.2rem;
     line-height: 3.819rem;
     font-weight: 600;
-    color: ${colors.introColor};
+    color: ${colors.gray_50};
     margin-bottom: 4.8rem;
 
     @media screen and (max-width: 430px) {
@@ -59,7 +59,7 @@ const BodyP = styled.p`
     font-size: 2.8rem;
     font-weight: 300;
     line-height: 4.4rem;
-    color: ${colors.introColor};
+    color: ${colors.gray_300};
     text-align: Justified;
 
     @media screen and (max-width: 430px) {
@@ -81,7 +81,7 @@ const AnswerP = styled.p`
     font-size: 3.6rem;
     font-weight: 700;
     line-height: 4.296rem;
-    color: ${colors.bannerBackground4};
+    color: ${colors.gray_300};
 
     @media screen and (max-width: 430px) {
         font-weight: 600;
@@ -94,7 +94,7 @@ const AnswerDiv = styled.div`
     width: 100%;
     border: none;
     border-radius: 0.4rem;
-    background: ${colors.footerColor};
+    background: ${colors.gray_900};
     min-height: 40rem;
     margin-top: 4.2rem;
     padding: 2rem;
@@ -135,8 +135,8 @@ const QnaButton = styled.div`
     height: 10rem;
     border: none;
     border-radius: 0.8rem;
-    background: ${colors.white};
-    color: ${colors.footerColor};
+    background: ${colors.primary_50};
+    color: ${colors.gray_950};
     font-size: 3.2rem;
     font-weight: 800;
     line-height: 3.819rem;
@@ -147,8 +147,7 @@ const QnaButton = styled.div`
     cursor: pointer;
 
     &:hover {
-        background: ${colors.footerColor};
-        color: ${colors.white};
+        background-color: ${colors.primary_100};
     }
 
     @media screen and (max-width: 430px) {

@@ -7,7 +7,7 @@ const ItemContainer = styled.div`
     display: flex;
     align-items: flex-end;
     border-radius: 0.68rem;
-    border: 0.17rem solid ${colors.bannerBackground4};
+    border: 0.17rem solid ${colors.primary_700};
     position: relative;
     padding: 0 2.3rem 2.1rem 2.3rem;
     margin-bottom: 1rem;
@@ -15,7 +15,7 @@ const ItemContainer = styled.div`
     @media screen and (max-width: 430px) {
         height: 6.1rem;
         border-radius: 0.4rem;
-        border: 0.1rem solid ${colors.bannerBackground4};
+        border: 0.1rem solid ${colors.primary_700};
         padding: 1.4rem;
     }
 `
@@ -26,7 +26,7 @@ const ItemP = styled.div`
     top: 0;
     left: 0;
     border-radius: 0.68rem;
-    background: ${colors.recruitColor7};
+    background: ${colors.primary_700};
     font-size: 2rem;
     font-weight: 500;
     line-height: 2.387rem;
@@ -46,10 +46,10 @@ const ItemLink = styled.a`
     font-size: 2rem;
     font-weight: 400;
     line-height: 2.387rem;
-    color: ${colors.white};
+    color: ${colors.gray_100};
 
     &:hover {
-        color: ${colors.bannerBackground4};
+        color: ${colors.primary_200};
     }
 
     @media screen and (max-width: 430px) {

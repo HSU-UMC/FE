@@ -14,7 +14,7 @@ const ActiveP = styled.p`
     font-size: 2.4rem;
     font-weight: 700;
     line-height: 2.864rem;
-    color: ${colors.white};
+    color: ${colors.gray_50};
 
     @media screen and (max-width: 430px) {
         font-size: 1.8rem;
@@ -26,7 +26,7 @@ const ActiveP2 = styled.p`
     font-size: 2.2rem;
     font-weight: 400;
     line-height: 2.625rem;
-    color: ${colors.white};
+    color: ${colors.gray_100};
     margin-top: 2rem;
 
     @media screen and (max-width: 430px) {

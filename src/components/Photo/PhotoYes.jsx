@@ -81,7 +81,7 @@ const CaptureButton = styled.div`
     font-size: 3.2rem;
     font-weight: 800;
     line-height: 3.819rem;
-    color: ${colors.footerColor};
+    color: ${colors.black};
 `;
 
 const PhotoDiv = styled.div`

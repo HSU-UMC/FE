@@ -20,7 +20,7 @@ const MenuContainer = styled.div`
     top: 7.5rem;
     width: 100%;
     height: 100vh;
-    background-color: ${colors.menuBackground};
+    background-color: ${colors.gray_950};
     position: fixed;
     z-index: 9999;
     display: flex;
@@ -59,7 +59,7 @@ const MenuDetailContainer = styled.div`
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 2.188rem;
-    color: ${({ isactive, ishovered }) => (isactive === 'true' || ishovered === 'true' ? colors.white : colors.menuColor)};
+    color: ${({ isactive, ishovered }) => (isactive === 'true' || ishovered === 'true' ? colors.white : colors.gray_500)};
     opacity: 0;
     animation: ${fadeIn} 1s ease-out forwards;
     animation-delay: ${({ index }) => index * 0.25}s;

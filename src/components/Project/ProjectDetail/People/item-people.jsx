@@ -18,7 +18,7 @@ const PartP = styled.p`
     font-weight: 600;
     font-size: 2.8rem;
     line-height: 3.341rem;
-    color: ${colors.introColor};
+    color: ${colors.gray_100};
 
     @media screen and (max-width: 430px) {
         width: 10.2rem;
@@ -45,7 +45,7 @@ const NameItem = styled.li`
     font-size: 2.4rem;
     font-weight: 500;
     line-height: 2.864rem;
-    color: ${colors.introColor};
+    color: ${colors.gray_300};
     text-align: left;
 
     @media screen and (max-width: 430px) {

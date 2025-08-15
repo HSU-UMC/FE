@@ -18,22 +18,22 @@ const InputContainer = styled.input`
     height: 5.193rem;
     border: none;
     background-color: transparent;
-    border-bottom: 0.1rem solid ${colors.qnaColor};
+    border-bottom: 0.1rem solid ${colors.gray_600};
     font-size: 2.8rem;
     line-height: 3.341rem;
-    color: ${colors.qnaColor};
+    color: ${colors.gray_100};
     font-weight: 500;
     font-family: Pretendard;
 
     @media screen and (max-width: 430px) {
-        border-bottom: 0.05rem solid ${colors.qnaColor};
+        border-bottom: 0.05rem solid ${colors.gray_600};
         height: 2.647rem;
         font-size: 1.4rem;
         line-height: 1.671rem;
     }
 
     ::placeholder {
-        color: ${colors.qnaColor};
+        color: ${colors.gray_100};
     }
 `
 
