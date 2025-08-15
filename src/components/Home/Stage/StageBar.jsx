@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import PropTypes from "prop-types";
 import colors from "../../../styles/colors";
-import StageDot from "../../../assets/svgs/home/stageDot.svg";
+import StageDot from "../../../assets/svgs/Home/stageDot.svg";
 import PeopleIcon from "../../../assets/icons/PeopleIcon";
 import useScrollAnimation from "../../../hooks/Home/useScrollAnimation";
 import { revealFromLeft, fadeInUp } from "../../../styles/animations";
