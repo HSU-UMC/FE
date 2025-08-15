@@ -40,16 +40,16 @@ const QP = styled.div`
     justify-content: center;
     align-items: center;
     border-radius: 31.25rem;
-    border: 1px solid ${colors.bannerBackground4};
+    border: 1px solid ${colors.primary_500};
     font-size: 2.5rem;
     font-weight: 500;
-    color: ${colors.bannerBackground4};
+    color: ${colors.primary_500};
 
     @media screen and (max-width: 430px) {
         font-size: 1.3rem;
         padding: 0.25rem 0.625rem;
         border-radius: 15.625rem;
-        border: 0.5px solid ${colors.bannerBackground4};
+        border: 0.5px solid ${colors.primary_500};
     }
 `;
 
@@ -57,7 +57,7 @@ const QP2 = styled.p`
     font-size: 2.6rem;
     line-height: 3.103rem;
     font-weight: 500;
-    color: ${colors.introColor};
+    color: ${colors.gray_50};
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -85,7 +85,7 @@ const AnswerDiv = styled.div`
     text-align: center;
     font-size: 2.4rem;
     font-weight: 600;
-    color: ${colors.white};
+    color: ${colors.gray_500};
 
     @media screen and (max-width: 430px) {
         width: 7.15rem;
