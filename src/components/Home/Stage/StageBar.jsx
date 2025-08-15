@@ -182,6 +182,7 @@ const StageBarP2 = styled.p`
   line-height: 3.2rem;
   color: ${colors.white};
   margin-top: 0.6rem;
+  white-space: nowrap;
 
   @media screen and (max-width: 430px) {
     font-size: 1.6rem;
