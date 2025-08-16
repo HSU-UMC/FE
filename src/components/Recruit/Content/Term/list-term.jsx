@@ -48,7 +48,7 @@ const ListTerm = ({ data }) => {
     //console.log(data);
     return (
         <ListContainer>
-            <ListP>학기 중</ListP>
+            <ListP>학기 중 (9~12월)</ListP>
             {data.map((item, index) => (
                 <ItemTerm
                     key={index}

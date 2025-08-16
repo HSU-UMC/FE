@@ -8,6 +8,7 @@ import Part from "../../components/Recruit/Part/Part";
 import ActiveDate from "../../components/Recruit/ActiveDate/ActiveDate";
 import RecruitDate from "../../components/Recruit/RecruitDate/RecruitDate";
 import Content from "../../components/Recruit/Content/Content";
+import StudyCourse from "../../components/Recruit/StudyCourse/StudyCourse";
 import Competency from "../../components/Recruit/Competency/Competency";
 import Information from "../../components/Recruit/Information/Information";
 import SNS from "../../components/Recruit/SNS/SNS";
@@ -95,6 +96,7 @@ const Recruit = () => {
 
             <RecruitContainer>
                 <Content data={recruitData} />
+                <StudyCourse data={recruitData} />
                 <Competency data={recruitData} />
                 <Information data={recruitData} />
                 <SNS data={recruitData} />

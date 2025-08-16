@@ -4,17 +4,18 @@ import colors from "../../../../styles/colors";
 const ItemContainer = styled.div`
     margin: 1rem 0 2rem 0;
     width: 100%;
-    height: 10.4rem;
+    min-height: 21rem;
     display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     padding: 0 2.3rem 2.6rem 2.3rem;
     border-radius: 0.68rem;
     border: 0.17rem solid ${colors.primary_700};
-    align-items: flex-end;
     position: relative;
 
     @media screen and (max-width: 430px) {
         margin: 1rem 0;
-        height: 6.1rem;
+        min-height: 12rem;
         padding: 0 1.4rem 1.4rem 1.4rem;
         border-radius: 0.4rem;
         border: 0.1rem solid ${colors.primary_700};
@@ -46,11 +47,22 @@ const TitleContainer = styled.div`
     }
 `
 
+const ContentWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+
+    @media screen and (max-width: 430px) {
+        gap: 0.7rem;
+    }
+`;
+
 const ContentP = styled.p`
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 2.148rem;
     color: ${colors.gray_400};
+    white-space: pre-line;
 
     @media screen and (max-width: 430px) {
         font-size: 1.1rem;
@@ -62,7 +74,11 @@ const ItemTerm = ({ title, explain }) => {
     return (
         <ItemContainer>
             <TitleContainer>{title}</TitleContainer>
-            <ContentP>{explain}</ContentP>
+            <ContentWrapper>
+                {explain.split("\n").map((line, index) => (
+                    <ContentP key={index}>{line}</ContentP>
+                ))}
+            </ContentWrapper>
         </ItemContainer>
     )
 }
