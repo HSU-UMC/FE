@@ -27,7 +27,7 @@ const ListVacation = ({ data }) => {
     return (
         <>
             <ListContainer>
-                <ListP>방학 중</ListP>
+                <ListP>방학 중 (1~2월)</ListP>
                 {data.map((item, index) => (
                     <ItemVacation
                         key={index}

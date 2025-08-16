@@ -57,7 +57,7 @@ const Banner = () => {
         <BannerContainer>
             <BannerInnerContainer>
                 <BannerImg src={BannerLogo1} alt="banner" />
-                <BannerP>IT 연합 사이드 프로젝트 동아리 한성대 UMC 8기 모집!</BannerP>
+                <BannerP>전국 최대 규모 대학생 IT 연합 사이드 프로젝트 동아리<br/> 한성대 UMC 9기 모집!</BannerP>
             </BannerInnerContainer>
         </BannerContainer>
     )
