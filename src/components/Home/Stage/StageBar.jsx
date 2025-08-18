@@ -7,7 +7,7 @@ import useScrollAnimation from "../../../hooks/Home/useScrollAnimation";
 import { revealFromLeft, fadeInUp } from "../../../styles/animations";
 
 const DOTS_COUNT = 5;
-const RECRUITING_TEXT = "모집예정";
+const RECRUITING_TEXT = "모집중";
 
 const STAGE_DATA = [
   { date: "2023.09", title: "5TH UMC", count: 43, type: "people" },
