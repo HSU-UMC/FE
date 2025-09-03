@@ -51,7 +51,7 @@ const NotP = styled.p`
 
 const Project = () => {
   const [projectData, setProjectData] = useState([]);
-  const [selectedId, setSelectedId] = useState(0);
+  const [selectedId, setSelectedId] = useState(3);
 
   useEffect(() => {
     setProjectData(ProjectData);
