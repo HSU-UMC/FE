@@ -13,8 +13,8 @@ const STAGE_DATA = [
   { date: "2023.09", title: "5TH UMC", count: 43, type: "people" },
   { date: "2024.03", title: "6TH UMC", count: 34, type: "people" },
   { date: "2024.09", title: "7TH UMC", count: 33, type: "people" },
-  { date: "2025.02", title: "8TH UMC", count: 30, type: "people" },
-  { date: "2025.09", title: "9TH UMC", count: null, type: "recruiting" }
+  { date: "2025.03", title: "8TH UMC", count: 30, type: "people" },
+  { date: "2025.09", title: "9TH UMC", count: null, type: "recruiting" },
 ];
 
 const StageBarWrapper = styled.div`
@@ -37,10 +37,10 @@ const StageBarWrapper = styled.div`
 const ConnectingLine = styled.div`
   position: absolute;
   top: 50%;
-  left: 7.2rem; 
+  left: 7.2rem;
   right: 7.2rem;
   height: 0.2rem;
-  background-color: #E1E1E1;
+  background-color: #e1e1e1;
   transform: translateY(-50%);
   z-index: 1;
 
@@ -219,15 +219,16 @@ const RecruitingBox = styled(BaseBox)`
   overflow: hidden;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, 
-      transparent, 
-      rgba(255, 255, 255, 0.3), 
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.3),
       transparent
     );
     animation: boxShining 3s infinite;
@@ -236,15 +237,15 @@ const RecruitingBox = styled(BaseBox)`
   }
 
   @keyframes boxShining {
-    0% { 
-      left: -100%; 
+    0% {
+      left: -100%;
       opacity: 0;
     }
-    50% { 
+    50% {
       opacity: 1;
     }
-    100% { 
-      left: 100%; 
+    100% {
+      left: 100%;
       opacity: 0;
     }
   }
@@ -253,7 +254,11 @@ const RecruitingBox = styled(BaseBox)`
 const RecruitingText = styled.p`
   font-size: 2rem;
   font-weight: 700;
-  background: linear-gradient(135deg, ${colors.primary_500}, ${colors.secondary});
+  background: linear-gradient(
+    135deg,
+    ${colors.primary_500},
+    ${colors.secondary}
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -293,12 +298,12 @@ const PeopleP = styled.p`
 
 const StageItem = ({ stage, isRecruiting = false }) => {
   const Container = isRecruiting ? RecruitingContainer : DetailContainer;
-  
+
   return (
     <Container>
       <StageBarP1>{stage.date}</StageBarP1>
       <StageBarP2>{stage.title}</StageBarP2>
-      {stage.type === 'recruiting' ? (
+      {stage.type === "recruiting" ? (
         <RecruitingBox>
           <RecruitingText>{RECRUITING_TEXT}</RecruitingText>
         </RecruitingBox>
@@ -319,7 +324,7 @@ StageItem.propTypes = {
     date: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     count: PropTypes.number,
-    type: PropTypes.oneOf(['people', 'recruiting']).isRequired,
+    type: PropTypes.oneOf(["people", "recruiting"]).isRequired,
   }).isRequired,
   isRecruiting: PropTypes.bool,
 };
@@ -348,10 +353,10 @@ const StageBar = () => {
         }
       >
         {STAGE_DATA.map((stage) => (
-          <StageItem 
+          <StageItem
             key={`${stage.date}-${stage.title}`}
             stage={stage}
-            isRecruiting={stage.type === 'recruiting'}
+            isRecruiting={stage.type === "recruiting"}
           />
         ))}
       </StageDetailContainer>
